@@ -8,7 +8,8 @@
 
 ##  Preview
 
-![CARVAN Hero](https://car-van.netlify.app/assets/ban2.jfif)
+![CARVAN ])<img width="1901" height="958" alt="image" src="https://github.com/user-attachments/assets/23147e7a-55d3-4007-bb0f-84829f155bf6" />
+
 
 ---
 
@@ -31,7 +32,7 @@
 
 ---
 
-## 📄 Pages
+##  Pages
 
 | Route | Description |
 |---|---|
@@ -44,46 +45,22 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
-| Frontend | HTML, CSS, JavaScript |
+| Frontend | HTML, CSS, Bootstrap, JavaScript |
 | Hosting | [Netlify](https://netlify.com) |
 | Assets | Custom images, logos, WebP/JFIF media |
 
-> If you're using a framework (React, Vue, etc.), update this section accordingly.
-
----
-
-
-
-### Deployment
-
-The project is deployed on **Netlify** via continuous deployment from GitHub.
-
-To deploy your own copy:
-1. Fork this repo
-2. Connect it to your Netlify account
-3. Set the publish directory to the project root (or `dist/` if using a build step)
-4. Deploy 
 
 
 ---
 
-##  License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-##  Contact
-
-Have questions or want to collaborate?
-
--  Site: [car-van.netlify.app](https://car-van.netlify.app)
 
 
----
+
+
+
 
 <p align="center">© 2026 CARVAN AUTOMOTIVE SYSTEMS. ALL RIGHTS RESERVED.</p>
