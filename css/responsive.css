@@ -1,0 +1,336 @@
+/* home sidebar */
+
+@media (max-width: 992px) {
+  .hero-car {
+    width: 100%;
+    right: -20%;
+  }
+  .gauges-container {
+    display: none;
+  }
+
+  .cta-group {
+    width: 100%;
+  }
+}
+.overlay.visible {
+  opacity: 1;
+  visibility: visible;
+}
+/* footer  */
+@media (max-width: 992px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* brands  */
+/*  TABLET & DESKTOP (1024px)  */
+@media (max-width: 1024px) {
+  .brand-picker {
+    width: 220px;
+  }
+  .main-stage {
+    margin-left: 220px;
+    padding: 40px 20px;
+    margin-top: 0; 
+  }
+  .hero-tittle {
+    font-size: 5rem;
+  }
+}
+
+/*  LARGE MOBILE / SMALL TABLET (768px)  */
+@media (max-width: 768px) {
+
+  .brand-picker {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid #1a1a1a;
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    white-space: nowrap;
+  }
+
+  .brand-group {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
+
+  .brand-parent {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+
+  .sub-menu {
+    position: absolute;
+    z-index: 1001;
+    width: 200px;
+  }
+
+  /* 2. Main Content Layout */
+  .main-stage {
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .brand-bg-text {
+    font-size: 25vw;
+    top: 30%;
+    left: 50%;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr 1fr; 
+  }
+
+  .stats-bar-wrapper {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .stat-divider {
+    width: 80%;
+    height: 1px;
+  }
+}
+
+/*  MOBILE LARGE (425px)  */
+@media (max-width: 425px) {
+  .hero-main-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-tittle {
+    font-size: 3.5rem;
+  }
+
+  .brand-logo-card {
+    min-width: 80px;
+  }
+
+  .brand-logo-card img {
+    height: 20px;
+  }
+
+  .brand-row-wrapper {
+    gap: 20px;
+  }
+
+  .stat-box, .stat-boxx {
+    padding: 10px;
+    border: 1px solid #222; 
+  }
+}
+
+/*  SMALL MOBILE (375px)  */
+@media (max-width: 375px) {
+  .hero-subtitle {
+    font-size: 0.8rem;
+  }
+
+  .brand-bg-text {
+    font-size: 30vw;
+  }
+
+  .stat-vallue {
+    font-size: 1.4rem;
+  }
+
+  .btn-brand {
+    width: 100%;
+    padding: 15px 20px;
+  }
+
+  #brandImg {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+
+  .hero-contennt {
+    padding: 0 10px;
+  }
+}
+/* range baner  */
+
+@media (max-width: 1024px) {
+  .hero {
+    display: none !important;
+  }
+}
+
+/* contact */
+@media (max-width: 768px) {
+  .table-1 {
+    height: 50vh;
+  }
+  .table-5 {
+    flex-direction: column;
+  }
+  .table-6 {
+    border-right: none;
+    border-bottom: 1px dashed ;
+  }
+  .table-9 {
+    grid-template-columns: 1fr;
+  }
+  .data-7 {
+    grid-column: span 1;
+  }
+}
+/* about  */
+/*  RESPONSIVE  */
+@media (max-width: 768px) {
+  .container {
+    margin-top: 20px;
+  }
+  .engine-block {
+    flex-direction: column;
+  }
+  .side-profile {
+    border-right: none;
+    border-bottom: 1px dashed var(--metal);
+  }
+  .hero-banner {
+    height: 50vh;
+    clip-path: none;
+  }
+  .location-box {
+    flex-direction: column;
+  }
+}
+/* preowned */
+
+
+/* responsive */
+@media (max-width: 1024px) {
+  .hero-banner {
+    padding: 40px;
+    justify-content: center;
+  }
+
+  .car-display {
+    width: 80%;
+    max-width: 450px;
+  }
+
+  .bg-text {
+    font-size: 7rem;
+    letter-spacing: 10px;
+  }
+
+  .asset-card {
+    flex-direction: column; 
+    height: auto; 
+    min-height: 100vh; 
+  }
+
+  .asset-specs, 
+  .asset-action {
+    width: 100%;
+    border: none;
+    padding: 30px;
+  }
+
+  .asset-visual {
+    min-height: 300px;
+    order: -1; 
+  }
+}
+
+/* Small Tablet*/
+@media (max-width: 768px) {
+  .main-content {
+    position: relative; 
+    top: 0;
+    left: 0;
+    transform: none;
+    padding-top: 60px;
+  }
+
+  .bg-text {
+    font-size: 5rem;
+    letter-spacing: 8px;
+    top: 20%; 
+  }
+
+  .halo {
+    width: 300px;
+    height: 300px;
+  }
+
+  .footer-row {
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .stats {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+/* Mobile Large */
+@media (max-width: 425px) {
+  .asset-title {
+    font-size: 2.2rem; 
+  }
+
+  .asset-price {
+    font-size: 2.5rem;
+  }
+
+  .stat-item {
+    padding-right: 0;
+    border-right: none;
+    width: 100%; 
+    margin-bottom: 10px;
+  }
+
+  .vault-container {
+    padding: 30px 15px;
+  }
+}
+
+/* Small Mobile  */
+@media (max-width: 375px) {
+  .bg-text {
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+  }
+
+  .car-display {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .pre-ed {
+    font-size: 18px; 
+  }
+
+  .asset-specs {
+    padding: 20px 15px;
+  }
+
+  .spec-line {
+    font-size: 0.65rem;
+  }
+
+  .btn-acquire {
+    font-size: 1rem;
+    padding: 12px;
+  }
+}

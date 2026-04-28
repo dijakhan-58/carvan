@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+body {
+  background-color: #000000;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Background Glow Container */
+.hero-banner {
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(circle at center, #1a1a1a 0%, #0a0a0a 80%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.halo {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 2px solid #e63946;
+  box-shadow:
+    0 0 50px #61050d,
+    inset 0 0 20px #6c030c;
+  opacity: 0.4;
+  z-index: 1;
+}
+.pre-ed{
+  font-size: 25px;
+  color: #6c030c;
+}
+.car-display {
+  position: relative;
+  z-index: 2;
+  width: 600px;
+  margin: 0 auto;
+  filter: drop-shadow(0 0 15px rgba(230, 57, 70, 0.3));
+}
+
+.bg-text {
+  position: absolute;
+  top: 50%;
+ right: 5%;
+  transform: translate(-50%, -50%);
+  font-size: 9rem;
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(62, 53, 53, 0.486);
+  letter-spacing: 20px;
+  z-index: 0;
+  white-space: nowrap;
+}
+
+/* Footer Stats */
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 10;
+  margin-top: 480px;
+  flex-wrap: wrap;
+}
+
+.join-btn {
+  background: #a80404;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 12px;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+  transition: 0.3s;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.join-btn:hover {
+  background-color: #8a131d;
+  color: #ffffff;
+}
+
+.stats {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  text-align: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  padding-right: 40px;
+}
+
+.stat-item:last-child {
+  border: none;
+  padding-right: 0;
+}
+
+.stat-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: #e63946;
+  letter-spacing: 1px;
+}
+
+.vault-container {
+  padding: 60px 50px;
+}
+
+/*  Asset Card Layout  */
+.asset-card {
+  background: #0d0d0d;
+  border: 1px solid #1a1a1a;
+  margin-bottom: 30px;
+  display: flex;
+  height: 520px;
+  position: relative;
+  transition: border-color 0.4s;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.asset-card:hover {
+  border-color: #8f0d0d;
+}
+
+/*   Left: Technical Specs   */
+.asset-specs {
+  width: 350px;
+  padding: 40px;
+  border-right: 1px solid #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.asset-id {
+  font-size: 0.7rem;
+  color: #444;
+  margin-bottom: 20px;
+  font-family: "JetBrains Mono";
+}
+
+.asset-title {
+  font-family: "Bebas Neue";
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+.spec-line {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #5d0808;
+  font-size: 0.75rem;
+}
+
+.spec-label {
+  color: #666;
+  font-family: "JetBrains Mono";
+}
+
+/*   Center: Visual   */
+.asset-visual {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+
+.asset-visual img {
+  width: 115%;
+  filter: brightness(0.6);
+  transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.asset-card:hover .asset-visual img {
+  transform: scale(1.1);
+  filter: brightness(1);
+}
+
+/*   Right: Action & Narrative   */
+.asset-action {
+  width: 400px;
+  padding: 40px;
+  background: linear-gradient(to right, #0d0d0d, #080808);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 1px solid #1a1a1a;
+}
+
+.narrative-header {
+  font-family: "JetBrains Mono";
+  font-size: 0.65rem;
+  color: #8f0d0d;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.story-text {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: #888;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.story-text strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+.price-section {
+  border-top: 1px solid #1a1a1a;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.market-label {
+  font-family: "JetBrains Mono";
+  font-size: 0.6rem;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.asset-price {
+  font-family: "Bebas Neue";
+  font-size: 3.5rem;
+  color: #8f0d0d;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+.btn-acquire {
+  background: #8f0d0d;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  font-family: "Bebas Neue";
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.btn-acquire:hover {
+  background: #fff;
+  color: #000;
+  transform: translateY(-3px);
+}
+
+.btn {
+  background: #a80404;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 12px;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+  transition: 0.3s;
+}
+
+/* responsive */
+@media (max-width: 1024px) {
+  .hero-banner {
+    padding: 40px;
+    justify-content: center;
+  }
+
+  .car-display {
+    width: 80%;
+    max-width: 450px;
+  }
+
+  .bg-text {
+    font-size: 7rem;
+    letter-spacing: 10px;
+  }
+
+  .asset-card {
+    flex-direction: column; 
+    height: auto; 
+    min-height: 100vh; 
+  }
+
+  .asset-specs, 
+  .asset-action {
+    width: 100%;
+    border: none;
+    padding: 30px;
+  }
+
+  .asset-visual {
+    min-height: 300px;
+    order: -1; 
+  }
+}
+
+/* Small Tablet*/
+@media (max-width: 768px) {
+  .main-content {
+    position: relative; 
+    top: 0;
+    left: 0;
+    transform: none;
+    padding-top: 60px;
+  }
+
+  .bg-text {
+    font-size: 5rem;
+    letter-spacing: 8px;
+    top: 20%; 
+  }
+
+  .halo {
+    width: 300px;
+    height: 300px;
+  }
+
+  .footer-row {
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .stats {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+/* Mobile Large */
+@media (max-width: 425px) {
+  .asset-title {
+    font-size: 2.2rem; 
+  }
+
+  .asset-price {
+    font-size: 2.5rem;
+  }
+
+  .stat-item {
+    padding-right: 0;
+    border-right: none;
+    width: 100%; 
+    margin-bottom: 10px;
+  }
+
+  .vault-container {
+    padding: 30px 15px;
+  }
+}
+
+/* Small Mobile  */
+@media (max-width: 375px) {
+  .bg-text {
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+  }
+
+  .car-display {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .pre-ed {
+    font-size: 18px; 
+  }
+
+  .asset-specs {
+    padding: 20px 15px;
+  }
+
+  .spec-line {
+    font-size: 0.65rem;
+  }
+
+  .btn-acquire {
+    font-size: 1rem;
+    padding: 12px;
+  }
+}

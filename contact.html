@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- basic -->
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fevicon -->
+    <link rel="icon" href="assets/logo/carvan-logo.png" />
+
+    <title>Carvan-contact</title>
+    <!-- font  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Barlow+Condensed:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- animation -->
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+<div class="overlay" id="navOverlay" onclick="closeNav()"></div>
+
+<nav class="carvan-nav">
+  <a href="#" class="nav-logo">
+    <img src="assets/logo/carvan-logo.png" alt="CARVAN" />
+  </a>
+
+  <div class="sidebar-trigger" onclick="openNav()">
+    <i class="fa-solid fa-bars-staggered"></i>
+  </div>
+</nav>
+
+<div class="sidebar-panel" id="sidePanel">
+  <div class="close-sidebar" onclick="closeNav()">
+    <i class="fa-solid fa-xmark"></i>
+  </div>
+
+  <div class="sidebar-links">
+        <div class="bar">NAVIGATION_MENU</div>
+        <ul>
+          <li><a href="index.html" class="side-link">Home</a></li>
+          <li><a href="about.html" class="side-link">About</a></li>
+          <li><a href="range.html" class="side-link">The Range</a></li>
+          <li><a href="preowned.html" class="side-link">Pre-Owned</a></li>
+          <li><a href="brands.html" class="side-link">Brands</a></li>
+          <li><a href="contact.html" class="side-link">Contact</a></li>
+        </ul>
+      </div>
+</div>
+
+    <!-- video  -->
+    <section class="table-1">
+      <div class="data-2"></div>
+      <div class="data-1">
+        <video autoplay muted loop playsinline>
+          <source src="assets/video/video5.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <!-- left side  -->
+      <div class="table-2" data-aos="zoom-in" data-aos-duration="1500">
+        <span>TRANSMISSION: ONLINE</span>
+        <h1>ENGAGE WITH US</h1>
+        <p class="para">GLOBAL PERFORMANCE OPERATIONS</p>
+      </div>
+    </section>
+    <!-- address  -->
+    <section class="table-4">
+      <div class="table-5" data-aos="fade-up">
+        <aside class="table-6" data-aos="fade-right" data-aos-delay="300">
+          <div class="data-3">
+            <span
+              style="
+                color: #cc0000;
+                font-family: &quot;Orbitron&quot;;
+                font-size: 0.8rem;
+              "
+              >// SECTOR COORDINATES</span
+            >
+            <div class="data-5">
+              PHASE 8, MODERN GRID<br />KARACHI, PAKISTAN
+            </div>
+          </div>
+          <div class="data-3">
+            <span
+              style="
+                color: #cc0000;
+                font-family: &quot;Orbitron&quot;;
+                font-size: 0.8rem;
+              "
+              >// SECURE LINE</span
+            >
+            <a href="tel:+923001234567" class="data-5">123-4567-89</a>
+          </div>
+          <div class="data-3">
+            <span
+              style="
+                color: #cc0000;
+                font-family: &quot;Orbitron&quot;;
+                font-size: 0.8rem;
+              "
+              >// DATA PACKETS</span
+            >
+            <a href="mailto:carvan@gmail.com" class="data-5"
+              >CARVAN@GMAIL.COM</a
+            >
+          </div>
+          <div class="data-3">
+            <span
+              style="
+                color: #cc0000;
+                font-family: &quot;Orbitron&quot;;
+                font-size: 0.8rem;
+              "
+              >// SOCIAL UPLINK</span
+            >
+            <div class="table-7">
+              <a href="#" class="data-4"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="data-4"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="data-4"><i class="fab fa-x-twitter"></i></a>
+            </div>
+          </div>
+        </aside>
+        <!-- form  -->
+        <div class="table-8" data-aos="fade-left" data-aos-delay="700">
+          <form id="formsubmittion">
+            <div class="table-9">
+              <div class="data-6">
+                <label>Pilot Identity</label>
+                <input
+                  type="text"
+                  name="name"
+                  class="data-8"
+                  placeholder="ENTER FULL NAME"
+                  required
+                />
+              </div>
+
+              <div class="data-6">
+                <label>Comms Link</label>
+                <input
+                  type="email"
+                  name="email"
+                  class="data-8"
+                  placeholder="EMAIL ADDRESS"
+                  required
+                />
+              </div>
+
+              <div class="data-6 data-7" style="grid-column: span 2">
+                <label>Target Vehicle Model</label>
+                <input
+                  type="text"
+                  name="title"
+                  class="data-8"
+                  placeholder="E.G. AVENTADOR SVJ, GT3 RS"
+                />
+              </div>
+
+              <div class="data-6 data-7" style="grid-column: span 2">
+                <label>Mission Objectives</label>
+                <textarea
+                  name="message"
+                  class="data-8"
+                  placeholder="TRANSMIT YOUR REQUIREMENTS..."
+                ></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="data-9">
+              <span class="btn-text">INITIALIZE IGNITION</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="table-10" data-aos="flip-up" data-aos-offset="100">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115865.17646547614!2d67.0181!3d24.8607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e0660293eb7%3A0xad6a256a47a16e53!2sKarachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1700000000000"
+        width="99%"
+        height="99%"
+      ></iframe>
+    </div>
+
+    <!-- footer  -->
+    <footer class="carvan-footer">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo/carvan-logo.png" alt="CARVAN" />
+          <p class="footer-desc">
+            Engineering the future of automotive acquisition. The CARVAN is a
+            high-security marketplace for the world's most elite assets.
+          </p>
+        </div>
+        <!-- links -->
+        <div>
+          <div class="footer-head">DIRECTORY</div>
+          <ul class="footer-links">
+            <li><a href="range.html">The Range</a></li>
+            <li><a href="preowned.html">Pre-Owned</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-head">SYSTEM</div>
+          <ul class="footer-links">
+            <li><a href="#">Inquiry Portal</a></li>
+            <li><a href="#">Technical Support</a></li>
+            <li><a href="#">Privacy Protocol</a></li>
+            <li><a href="#">Terms of Asset Transfer</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-head">TRANSMISSION</div>
+          <p class="footer-desc" style="margin-bottom: 20px">
+            Join the frequency for asset availability updates.
+          </p>
+          <div class="newsletter-box">
+            <input type="email" placeholder="ENTER_EMAIL" />
+            <button class="btn-join">SUBMIT</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 CARVAN AUTOMOTIVE SYSTEMS. ALL RIGHTS RESERVED.</div>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="javascript/aos.js"></script>
+    <script>
+      AOS.init({
+        once: false,
+        mirror: true,
+      });
+    </script>
+    <script src="javascript/email.min.js"></script>
+    <script src="javascript/script.js"></script>
+  </body>
+</html>

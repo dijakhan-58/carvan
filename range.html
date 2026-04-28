@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- basic -->
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Carvan-range</title>
+    <!-- fevicon -->
+    <link rel="icon" href="assets/logo/carvan-logo.png" />
+
+    <!-- font  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=JetBrains+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- animation -->
+    <link rel="stylesheet" href="css/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+
+   <div class="overlay" id="navOverlay" onclick="closeNav()"></div>
+
+<nav class="carvan-nav">
+  <a href="#" class="nav-logo">
+    <img src="assets/logo/carvan-logo.png" alt="CARVAN" />
+  </a>
+
+  <div class="sidebar-trigger" onclick="openNav()">
+    <i class="fa-solid fa-bars-staggered"></i>
+  </div>
+</nav>
+
+<div class="sidebar-panel" id="sidePanel">
+  <div class="close-sidebar" onclick="closeNav()">
+    <i class="fa-solid fa-xmark"></i>
+  </div>
+
+   <div class="sidebar-links">
+        <div class="bar">NAVIGATION_MENU</div>
+        <ul>
+          <li><a href="index.html" class="side-link">Home</a></li>
+          <li><a href="about.html" class="side-link">About</a></li>
+          <li><a href="range.html" class="side-link">The Range</a></li>
+          <li><a href="preowned.html" class="side-link">Pre-Owned</a></li>
+          <li><a href="brands.html" class="side-link">Brands</a></li>
+          <li><a href="contact.html" class="side-link">Contact</a></li>
+        </ul>
+      </div>
+</div>
+
+    <!-- banner -->
+    <main class="hero">
+      <div class="headline-box" data-aos="fade-right" data-aos-delay="200">
+        <div class="sub-header">DESIGNED FOR THE DRIVEN</div>
+        <h1>THE RANGE</h1>
+        <a href="index.html" class="book-link">SECURE YOUR SPEC →</a>
+      </div>
+
+      <div class="car-container" data-aos="zoom-out-up" data-aos-delay="400">
+        <img
+          id="carImage"
+          src="assets/images/m4 bmw.png"
+          alt="Supercar"
+          class="car-image"
+        />
+      </div>
+
+      <div class="stats-sidebar" data-aos="fade-left" data-aos-delay="600">
+        <div class="s-item">
+          <h3>+10 <span></span></h3>
+          <p>DECADES OF<br />LEGACY</p>
+        </div>
+        <div class="s-item">
+          <h3>+160 <span></span></h3>
+          <p>BESPOKE<br />DELIVERIES</p>
+        </div>
+        <div class="s-item">
+          <h3>+400 <span></span></h3>
+          <p>MASTERED<br />CHASSIS</p>
+        </div>
+      </div>
+    </main>
+    <!-- sidebar  -->
+    <div class="drawer-overlay" id="overlay"></div>
+
+    <div class="drawer" id="drawer">
+      <div class="drawer-header">
+        <h2>Explore Brands</h2>
+        <i class="fas fa-times" id="closeDrawer" style="cursor: pointer"></i>
+      </div>
+
+      <!-- menu  -->
+      <ul class="meenu">
+        <li>
+          <a onclick="filterByCategory('All')"
+            ><i class="fas fa-car-side"></i> <b>All Inventory</b></a
+          >
+        </li>
+        <!-- small cars  -->
+        <li>
+          <a class="toggle"> Small Cars<i class="fas fa-caret-down"></i></a>
+          <ul class="submenu">
+            <li><a onclick="filterBy('Yaris')">Toyota Yaris</a></li>
+            <li><a onclick="filterBy('Jazz')">Honda Jazz</a></li>
+            <li><a onclick="filterBy('Swift')">Suzuki Swift</a></li>
+            <li><a onclick="filterBy('Cooper')">Mini Cooper</a></li>
+            <li><a onclick="filterBy('500e')">Fiat 500e</a></li>
+            <li><a onclick="filterBy('i10')">Hyundai i10</a></li>
+            <li><a onclick="filterBy('Polo')">Volkswagen Polo</a></li>
+            <li><a onclick="filterBy('Clio')">Renault Clio</a></li>
+            <li><a onclick="filterBy('208')">Peugeot 208</a></li>
+            <li><a onclick="filterBy('LBX')">Lexus LBX</a></li>
+          </ul>
+        </li>
+        <!-- sedans -->
+        <li>
+          <a class="toggle">Sedans<i class="fas fa-caret-down"></i></a>
+          <ul class="submenu">
+            <li><a onclick="filterBy('Camry')">Toyota Camry</a></li>
+            <li><a onclick="filterBy('Civic')">Honda Civic</a></li>
+            <li><a onclick="filterBy('Model 3')">Tesla Model 3</a></li>
+            <li><a onclick="filterBy('3 Series')">BMW 3 Series</a></li>
+            <li><a onclick="filterBy('C-Class')">Mercedes C-Class</a></li>
+            <li><a onclick="filterBy('A4')">Audi A4</a></li>
+            <li><a onclick="filterBy('Sonata')">Hyundai Sonata</a></li>
+            <li><a onclick="filterBy('K5')">Kia K5</a></li>
+            <li><a onclick="filterBy('ES')">Lexus ES</a></li>
+            <li><a onclick="filterBy('S60')">Volvo S60</a></li>
+          </ul>
+        </li>
+        <!-- vans -->
+        <li>
+          <a class="toggle">Vans<i class="fas fa-caret-down"></i></a>
+          <ul class="submenu">
+            <li><a onclick="filterBy('Sienna')">Toyota Sienna</a></li>
+            <li><a onclick="filterBy('Odyssey')">Honda Odyssey</a></li>
+            <li><a onclick="filterBy('Sprinter')">Mercedes Sprinter</a></li>
+            <li><a onclick="filterBy('Transit')">Ford Transit</a></li>
+            <li><a onclick="filterBy('Carnival')">Kia Carnival</a></li>
+            <li><a onclick="filterBy('Transporter')">VW Transporter</a></li>
+            <li><a onclick="filterBy('Staria')">Hyundai Staria</a></li>
+            <li><a onclick="filterBy('ProMaster')">RAM ProMaster</a></li>
+            <li><a onclick="filterBy('Traveller')">Peugeot Traveller</a></li>
+            <li><a onclick="filterBy('HiAce')">Toyota HiAce</a></li>
+          </ul>
+        </li>
+        <!-- jeep -->
+        <li>
+          <a class="toggle">Jeeps (4x4)<i class="fas fa-caret-down"></i></a>
+          <ul class="submenu">
+            <li><a onclick="filterBy('Wrangler')">Jeep Wrangler</a></li>
+            <li><a onclick="filterBy('Bronco')">Ford Bronco</a></li>
+            <li><a onclick="filterBy('Jimny')">Suzuki Jimny</a></li>
+            <li><a onclick="filterBy('Defender')">Land Rover Defender</a></li>
+            <li>
+              <a onclick="filterBy('Land Cruiser')">Toyota Land Cruiser</a>
+            </li>
+            <li><a onclick="filterBy('G-Class')">Mercedes G-Class</a></li>
+            <li><a onclick="filterBy('GX')">Lexus GX</a></li>
+            <li><a onclick="filterBy('4Runner')">Toyota 4Runner</a></li>
+            <li><a onclick="filterBy('Gladiator')">Jeep Gladiator</a></li>
+            <li><a onclick="filterBy('D-Max')">Isuzu D-Max</a></li>
+          </ul>
+        </li>
+        <!-- sports -->
+        <li>
+          <a class="toggle">Sports<i class="fas fa-caret-down"></i></a>
+          <ul class="submenu">
+            <li><a onclick="filterBy('Corvette')">Chevrolet Corvette</a></li>
+            <li><a onclick="filterBy('Miata')">Mazda MX-5</a></li>
+            <li><a onclick="filterBy('911')">Porsche 911</a></li>
+            <li><a onclick="filterBy('M4')">BMW M4</a></li>
+            <li><a onclick="filterBy('Mustang')">Ford Mustang GT</a></li>
+            <li><a onclick="filterBy('GR86')">Toyota GR86</a></li>
+            <li><a onclick="filterBy('296 GTB')">Ferrari 296 GTB</a></li>
+            <li><a onclick="filterBy('Cayman')">Porsche 718</a></li>
+            <li><a onclick="filterBy('Nissan Z')">Nissan Z</a></li>
+            <li><a onclick="filterBy('Huracán')">Lamborghini Huracán</a></li>
+          </ul>
+        </li>
+        <!-- vintage -->
+        <li>
+          <a class="toggle">Vintage<i class="fas fa-caret-down"></i></a>
+          <ul class="submenu">
+            <li><a onclick="filterBy('Silver Ghost')">RR Silver Ghost</a></li>
+            <li><a onclick="filterBy('Model T')">Ford Model T</a></li>
+            <li><a onclick="filterBy('300SL')">Mercedes 300SL</a></li>
+            <li><a onclick="filterBy('E-Type')">Jaguar E-Type</a></li>
+            <li><a onclick="filterBy('DB5')">Aston Martin DB5</a></li>
+            <li><a onclick="filterBy('250 GTO')">Ferrari 250 GTO</a></li>
+            <li><a onclick="filterBy('Beetle')">VW Beetle</a></li>
+            <li><a onclick="filterBy('911 Classic')">Porsche 911 (64)</a></li>
+            <li><a onclick="filterBy('C1')">Corvette C1</a></li>
+            <li><a onclick="filterBy('Citroën DS')">Citroën DS</a></li>
+          </ul>
+        </li>
+        <!-- suvs -->
+        <li>
+          <a class="toggle">SUV<i class="fas fa-caret-down"></i></a>
+          <ul class="submenu">
+            <li><a onclick="filterBy('RAV4')">Toyota RAV4</a></li>
+            <li><a onclick="filterBy('CR-V')">Honda CR-V</a></li>
+            <li><a onclick="filterBy('Tucson')">Hyundai Tucson</a></li>
+            <li><a onclick="filterBy('Tiguan')">VW Tiguan</a></li>
+            <li><a onclick="filterBy('Telluride')">Kia Telluride</a></li>
+            <li><a onclick="filterBy('X5')">BMW X5</a></li>
+            <li><a onclick="filterBy('Highlander')">Toyota Highlander</a></li>
+            <li><a onclick="filterBy('Cayenne')">Porsche Cayenne</a></li>
+            <li><a onclick="filterBy('Tahoe')">Chevrolet Tahoe</a></li>
+            <li><a onclick="filterBy('Sportage')">Kia Sportage</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container main-ui">
+      <div class="search-wrapper">
+        <i class="fas fa-bars-staggered brand-icon-trigger" id="openDrawer"></i>
+        <input
+          type="text"
+          id="mainSearch"
+          class="search-box"
+          placeholder="Search brand or model (e.g. Corvette)..."
+        />
+      </div>
+
+      <div class="filter-list" id="list">
+        <button class="list active" onclick="filterByCategory('All', this)">
+          All
+        </button>
+        <button class="list" onclick="filterByCategory('Small Cars', this)">
+          Small Cars
+        </button>
+        <button class="list" onclick="filterByCategory('Sedans', this)">
+          Sedans
+        </button>
+        <button class="list" onclick="filterByCategory('Vans', this)">
+          Vans
+        </button>
+        <button class="list" onclick="filterByCategory('Jeeps', this)">
+          Jeeps
+        </button>
+        <button class="list" onclick="filterByCategory('Sports', this)">
+          Sports
+        </button>
+        <button class="list" onclick="filterByCategory('Vintage', this)">
+          Vintage
+        </button>
+        <button class="list" onclick="filterByCategory('SUV', this)">
+          SUV
+        </button>
+      </div>
+
+      <div class="car-grid" id="carGrid"></div>
+    </div>
+    <!-- footer  -->
+    <footer class="carvan-footer">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo/carvan-logo.png" alt="CARVAN" />
+          <p class="footer-desc">
+            Engineering the future of automotive acquisition. The CARVAN is a
+            high-security marketplace for the world's most elite assets.
+          </p>
+        </div>
+        <!-- links -->
+        <div>
+          <div class="footer-head">DIRECTORY</div>
+          <ul class="footer-links">
+            <li><a href="range.html">The Range</a></li>
+            <li><a href="preowned.html">Pre-Owned</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-head">SYSTEM</div>
+          <ul class="footer-links">
+            <li><a href="#">Inquiry Portal</a></li>
+            <li><a href="#">Technical Support</a></li>
+            <li><a href="#">Privacy Protocol</a></li>
+            <li><a href="#">Terms of Asset Transfer</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-head">TRANSMISSION</div>
+          <p class="footer-desc" style="margin-bottom: 20px">
+            Join the frequency for asset availability updates.
+          </p>
+          <div class="newsletter-box">
+            <input type="email" placeholder="ENTER_EMAIL" />
+            <button class="btn-join">SUBMIT</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 CARVAN AUTOMOTIVE SYSTEMS. ALL RIGHTS RESERVED.</div>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="javascript/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="javascript/script.js"></script>
+    <script src="javascript/range.js"></script>
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- basic -->
+     <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fevicon -->
+    <link rel="icon" href="assets/logo/carvan-logo.png" />
+    <title>Carvan-brand</title>
+    <!-- font  -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@300;700&family=Outfit:wght@100;400;900&display=swap"
+      rel="stylesheet"
+    />
+   <link rel="stylesheet" href="css/aos.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  
+  </head>
+  <body>
+  <div class="overlay" id="navOverlay" onclick="closeNav()"></div>
+
+<nav class="carvan-nav">
+  <a href="#" class="nav-logo">
+    <img src="assets/logo/carvan-logo.png" alt="CARVAN" />
+  </a>
+
+  <div class="sidebar-trigger" onclick="openNav()">
+    <i class="fa-solid fa-bars-staggered"></i>
+  </div>
+</nav>
+
+<div class="sidebar-panel" id="sidePanel">
+  <div class="close-sidebar" onclick="closeNav()">
+    <i class="fa-solid fa-xmark"></i>
+  </div>
+
+  <div class="sidebar-links">
+        <div class="bar">NAVIGATION_MENU</div>
+        <ul>
+          <li><a href="index.html" class="side-link">Home</a></li>
+          <li><a href="about.html" class="side-link">About</a></li>
+          <li><a href="range.html" class="side-link">The Range</a></li>
+          <li><a href="preowned.html" class="side-link">Pre-Owned</a></li>
+          <li><a href="brands.html" class="side-link">Brands</a></li>
+          <li><a href="contact.html" class="side-link">Contact</a></li>
+        </ul>
+      </div>
+</div>
+    <section class="brand-hero">
+      <div class="hero-contennt" data-aos="fade-up">
+        <span class="hero-subtitle">"SELLING CARS, BUILDING TRUST"</span>
+        <h1 class="hero-main-title">Indulge in the Ultimate Driving Luxury</h1>
+        <p class="hero-description">
+          Experience unparalleled performance and sophisticated design. Every
+          vehicle in our collection is hand-picked to ensure it meets the
+          highest standards of excellence.
+        </p>
+      </div>
+      <!-- banner  -->
+      <div class="hero-car-display" data-aos="zoom-in" data-aos-delay="200">
+        <div class="glow-effect"></div>
+        <img
+          src="assets/images/m4 bmw.png"
+          alt="Featured Luxury Car"
+          width="100%"
+        />
+      </div>
+
+      <div class="stats-bar-wrapper" data-aos="fade-up" data-aos-delay="400">
+        <div class="item">
+          <span class="stat-value">420</span>
+          <span class="stat-label"
+            >MILEAGE <i class="fa-solid fa-gauge-high"></i
+          ></span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="item">
+          <span class="stat-value">310</span>
+          <span class="stat-label">KM/H <i class="fa-solid fa-bolt"></i></span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="item">
+          <span class="stat-value">2026</span>
+          <span class="stat-label"
+            >YEAR <i class="fa-solid fa-calendar-days"></i
+          ></span>
+        </div>
+        <a href="range.html" class="view-details-btn"
+          >View Details <i class="fa-solid fa-arrow-up-right-from-square"></i
+        ></a>
+      </div>
+    </section>
+    <!-- logo bar  -->
+    <section class="bran">
+      <div class="brand-logo-section" data-aos="fade-down">
+        <div class="container-fluid">
+          <div class="brand-row-wrapper">
+            <div class="brand-logo-card" onclick="updateBrand('Ferrari')">
+              <img src="assets/logo/Logo_2_Upscaled.png" alt="Ferrari" />
+              <span>FERRARI</span>
+            </div>
+            <div class="brand-logo-card" onclick="updateBrand('Lamborghini')">
+              <img src="assets/logo/Logo_6_Upscaled.png" alt="Lamborghini" />
+              <span>LAMBO</span>
+            </div>
+            <div class="brand-logo-card" onclick="updateBrand('Porsche')">
+              <img src="assets/logo/Logo_8_Upscaled.png" alt="Porsche" />
+              <span>PORSCHE</span>
+            </div>
+            <div class="brand-logo-card" onclick="updateBrand('Mercedes')">
+              <img src="assets/logo/Logo_10_Upscaled.png" alt="Mercedes" />
+              <span>MERCEDES</span>
+            </div>
+            <div class="brand-logo-card" onclick="updateBrand('BMW')">
+              <img src="assets/logo/Logo_9_Upscaled.png" alt="BMW" />
+              <span>BMW</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- brand sidebar -->
+    <div class="brand-picker" data-aos="slide-right" data-aos-duration="1000">
+      <div class="brand-group">
+        <div class="brand-parent">TOYOTA</div>
+        <div class="sub-menu">
+          <div class="brand-opt" onclick="changeModel('Camry')">
+            Camry (Sedans)
+          </div>
+          <div class="brand-opt" onclick="changeModel('Land Cruiser')">
+            Land Cruiser (4x4)
+          </div>
+        </div>
+      </div>
+
+      <div class="brand-group">
+        <div class="brand-parent">MERCEDES</div>
+        <div class="sub-menu">
+          <div class="brand-opt" onclick="changeModel('C-Class')">
+            C-Class (Sedans)
+          </div>
+          <div class="brand-opt" onclick="changeModel('G-Class')">
+            G-Class (4x4)
+          </div>
+        </div>
+      </div>
+
+      <div class="brand-group">
+        <div class="brand-parent">BMW</div>
+        <div class="sub-menu">
+          <div class="brand-opt" onclick="changeModel('3 Series')">
+            3 Series (Sedans)
+          </div>
+          <div class="brand-opt" onclick="changeModel('M4')">M4 (Sports)</div>
+        </div>
+      </div>
+
+      <div class="brand-group">
+        <div class="brand-parent">PORSCHE</div>
+        <div class="sub-menu">
+          <div class="brand-opt" onclick="changeModel('911')">911 (Sports)</div>
+          <div class="brand-opt" onclick="changeModel('Cayenne')">
+            Cayenne (SUV)
+          </div>
+        </div>
+      </div>
+
+      <div class="brand-group">
+        <div class="brand-parent">FERRARI</div>
+        <div class="sub-menu">
+          <div class="brand-opt" onclick="changeModel('296 GTB')">
+            296 GTB (Sports)
+          </div>
+          <div class="brand-opt" onclick="changeModel('250 GTO')">
+            250 GTO (Vintage)
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- main  -->
+    <main class="main-stage">
+      <div id="brandNameBg" class="brand-bg-text" class="brand-bg-text">
+        FERRARI
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <span
+            id="brandOrigin"
+            class="mono small"
+            style="color: #666"
+            data-aos="fade-up"
+            >ITALY // EST. 1947</span
+          >
+          <h1
+            id="brandName"
+            class="hero-tittle"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            FERRARI
+          </h1>
+
+          <p
+            id="brandDesc"
+            class="text-secondary"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            The pinnacle of Italian performance. Every Ferrari is a masterpiece
+            of engineering, speed, and soul.
+          </p>
+
+          <div class="stats-grid">
+            <div class="stat-box" data-aos="fade-right" data-aos-delay="600">
+              <div class="staat-label">TOP SPEED</div>
+              <div class="stat-vallue" id="statSpeed">340 KM/H</div>
+            </div>
+            <div class="stat-box" data-aos="fade-right" data-aos-delay="700">
+              <div class="staat-label">AVG POWER</div>
+              <div class="stat-vallue" id="statPower">780 HP</div>
+            </div>
+            <div class="stat-boxx" data-aos="fade-right" data-aos-delay="700">
+              <div class="staat-label">LEGACY</div>
+              <div class="stat-vallue" id="statLegacy">ELITE</div>
+            </div>
+          </div>
+
+          <button class="btn-brand">VIEW FULL CATALOG</button>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1200">
+          <img id="brandImg" />
+        </div>
+      </div>
+    </main>
+
+    <!-- footer  -->
+    <footer class="carvan-footer">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo/carvan-logo.png" alt="CARVAN" />
+          <p class="footer-desc">
+            Engineering the future of automotive acquisition. The CARVAN is a
+            high-security marketplace for the world's most elite assets.
+          </p>
+        </div>
+        <!-- links -->
+        <div>
+          <div class="footer-head">DIRECTORY</div>
+          <ul class="footer-links">
+            <li><a href="range.html">The Range</a></li>
+            <li><a href="preowned.html">Pre-Owned</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-head">SYSTEM</div>
+          <ul class="footer-links">
+            <li><a href="#">Inquiry Portal</a></li>
+            <li><a href="#">Technical Support</a></li>
+            <li><a href="#">Privacy Protocol</a></li>
+            <li><a href="#">Terms of Asset Transfer</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-head">TRANSMISSION</div>
+          <p class="footer-desc" style="margin-bottom: 20px">
+            Join the frequency for asset availability updates.
+          </p>
+          <div class="newsletter-box">
+            <input type="email" placeholder="ENTER_EMAIL" />
+            <button class="btn-join">SUBMIT</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 CARVAN AUTOMOTIVE SYSTEMS. ALL RIGHTS RESERVED.</div>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </footer>
+
+     <script src="javascript/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        once: false,
+        mirror: true,
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="javascript/script.js"></script>
+    <script src="javascript/brand.js"></script>
+  </body>
+</html>

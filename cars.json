@@ -1,0 +1,1662 @@
+[
+  {
+    "id": 1,
+    "brand": "Toyota",
+    "model": "Yaris",
+    "category": "Small Cars",
+    "range": "1500cc",
+    "price": "$24,000",
+    "image": "assets/images/car category/small cars/toyota yaris.png",
+    "tagline": "Best City Hybrid",
+    "description": "The Yaris is the ultimate urban companion, blending Toyota's world-leading hybrid technology with a compact footprint. Perfect for navigating tight city streets without compromising on fuel efficiency.",
+    "topSpeed": "109 mph",
+    "acceleration": "9.7s",
+    "exterior": "Platinum White Pearl",
+    "interior": "Grey Fabric",
+    "specs": {
+      "engine": "1.5L Hybrid",
+      "horsepower": "114 hp"
+    },
+    "features": ["Hybrid", "AWD-i", "Smart Entry", "Safety Sense"]
+  },
+  {
+    "id": 2,
+    "brand": "Honda",
+    "model": "Jazz",
+    "category": "Small Cars",
+    "range": "1500cc",
+    "price": "$26,500",
+    "image": "assets/images/car category/small cars/honda.jazz.png",
+    "tagline": "Spacious Compact",
+    "description": "Don't let the size fool you. The Honda Jazz features 'Magic Seats' and a highly advanced e:HEV powertrain, offering a smooth, EV-like driving experience with class-leading interior space.",
+    "topSpeed": "108 mph",
+    "acceleration": "9.4s",
+    "exterior": "Premium Sunlight White",
+    "interior": "Black Leather/Textile",
+    "specs": {
+      "engine": "1.5L e:HEV Hybrid",
+      "horsepower": "121 hp"
+    },
+    "features": ["Magic Seats", "e:HEV", "Honda CONNECT", "Heated Seats"]
+  },
+  {
+    "id": 3,
+    "brand": "Suzuki",
+    "model": "Swift",
+    "category": "Small Cars",
+    "range": "1200cc",
+    "price": "$21,000",
+    "image": "assets/images/car category/small cars/suzuki.swift.png",
+    "tagline": "Fun & Lightweight",
+    "description": "A cult classic known for its agile handling. The new Swift features a lightweight chassis and a mild hybrid system that makes every corner a joy to turn while keeping costs low.",
+    "topSpeed": "112 mph",
+    "acceleration": "11.9s",
+    "exterior": "Burning Red Pearl",
+    "interior": "Dark Grey Nylon",
+    "specs": {
+      "engine": "1.2L Mild Hybrid",
+      "horsepower": "81 hp"
+    },
+    "features": ["Lightweight", "Rear Camera", "LED Lights", "Mild Hybrid"]
+  },
+  {
+    "id": 4,
+    "brand": "Mini",
+    "model": "Cooper S",
+    "category": "Small Cars",
+    "range": "2000cc",
+    "price": "$32,800",
+    "image": "assets/images/car category/small cars/mini cooper.png",
+    "tagline": "Go-Kart Handling",
+    "description": "The Cooper S is a premium powerhouse in a small package. With a 2.0L turbo engine, it delivers the iconic 'Go-Kart' feel that has made Mini a legend on both the track and the street.",
+    "topSpeed": "150 mph",
+    "acceleration": "6.6s",
+    "exterior": "British Racing Green",
+    "interior": "Chester Malt Brown Leather",
+    "specs": {
+      "engine": "2.0L Turbo I4",
+      "horsepower": "201 hp"
+    },
+    "features": ["Sport Mode", "Harman Kardon", "HUD", "Ambient Lighting"]
+  },
+  {
+    "id": 5,
+    "brand": "Fiat",
+    "model": "500e",
+    "category": "Small Cars",
+    "range": "Electric",
+    "price": "$35,700",
+    "image": "assets/images/car category/small cars/fiat 500e.png",
+    "tagline": "Iconic Electric",
+    "description": "Italian style meets a sustainable future. The 500e retains its retro charm while offering a zippy electric range and a tech-focused cabin designed for the modern fashionista.",
+    "topSpeed": "93 mph",
+    "acceleration": "9.0s",
+    "exterior": "Rose Gold",
+    "interior": "Eco-Leather Seaqual",
+    "specs": {
+      "engine": "42kWh Battery",
+      "horsepower": "117 hp"
+    },
+    "features": ["Fast Charge", "Sherpa Mode", "One Pedal", "Uconnect 5"]
+  },
+  {
+    "id": 6,
+    "brand": "Hyundai",
+    "model": "i10",
+    "category": "Small Cars",
+    "range": "1200cc",
+    "price": "$18,500",
+    "image": "assets/images/car category/small cars/hyundai.i10.png",
+    "tagline": "Urban Efficiency",
+    "description": "Big on features, small in size. The i10 offers one of the most comprehensive safety packages in its class, making it the perfect choice for first-time buyers and city dwellers.",
+    "topSpeed": "106 mph",
+    "acceleration": "12.6s",
+    "exterior": "Dragon Red",
+    "interior": "Shale Grey Cloth",
+    "specs": {
+      "engine": "1.2L MPi",
+      "horsepower": "83 hp"
+    },
+    "features": ["Bluelink", "Wireless Phone Mirroring", "Lane Assist", "eCall"]
+  },
+  {
+    "id": 7,
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "category": "Small Cars",
+    "range": "1000cc",
+    "price": "$25,500",
+    "image": "assets/images/car category/small cars/volkswagen.polo.png",
+    "tagline": "Premium Hatch",
+    "description": "The Polo brings 'Big Car' refinement to the compact segment. Solid build quality, a quiet cabin, and the efficient TSI engine make it a sophisticated choice for any journey.",
+    "topSpeed": "116 mph",
+    "acceleration": "10.8s",
+    "exterior": "Reef Blue Metallic",
+    "interior": "ArtVelours Microfleece",
+    "specs": {
+      "engine": "1.0L TSI Turbo",
+      "horsepower": "95 hp"
+    },
+    "features": ["Digital Cockpit", "IQ.LIGHT", "Travel Assist", "App-Connect"]
+  },
+  {
+    "id": 8,
+    "brand": "Renault",
+    "model": "Clio",
+    "category": "Small Cars",
+    "range": "1600cc",
+    "price": "$23,500",
+    "image": "assets/images/car category/small cars/renault.clio.png",
+    "tagline": "Modern French Style",
+    "description": "A blend of elegance and technology. The Clio E-Tech Hybrid uses Formula 1 inspired engineering to provide a responsive drive with incredible fuel savings.",
+    "topSpeed": "112 mph",
+    "acceleration": "9.3s",
+    "exterior": "Iron Blue",
+    "interior": "Black Leatherette",
+    "specs": {
+      "engine": "1.6L E-Tech Hybrid",
+      "horsepower": "143 hp"
+    },
+    "features": ["E-Tech Hybrid", "Multi-Sense", "360 Camera", "Easy Park"]
+  },
+  {
+    "id": 9,
+    "brand": "Peugeot",
+    "model": "208",
+    "category": "Small Cars",
+    "range": "1200cc",
+    "price": "$24,800",
+    "image": "assets/images/car category/small cars/peugeot.png",
+    "tagline": "Futuristic Interior",
+    "description": "The 208 stands out with its sharp 'saber' tooth LED lights and the immersive i-Cockpit. It's a high-tech hatchback that feels much more expensive than its price tag suggests.",
+    "topSpeed": "117 mph",
+    "acceleration": "8.7s",
+    "exterior": "Agueda Yellow",
+    "interior": "Alcantara Green Stitch",
+    "specs": {
+      "engine": "1.2L PureTech Turbo",
+      "horsepower": "130 hp"
+    },
+    "features": ["i-Cockpit", "3D Cluster", "Massage Seats", "Full LED"]
+  },
+  {
+    "id": 10,
+    "brand": "Lexus",
+    "model": "LBX",
+    "category": "Small Cars",
+    "range": "1500cc",
+    "price": "$44,400",
+    "image": "assets/images/car category/small cars/lexus.;bx.png",
+    "tagline": "Luxury Sub-Compact",
+    "description": "Lexus brings Takumi craftsmanship to the small car segment. The LBX is a self-charging hybrid that defines luxury through silence, premium materials, and effortless city driving.",
+    "topSpeed": "106 mph",
+    "acceleration": "9.2s",
+    "exterior": "Sonic Copper",
+    "interior": "Saddle Tan Leather",
+    "specs": {
+      "engine": "1.5L Hybrid",
+      "horsepower": "134 hp"
+    },
+    "features": [
+      "Takumi Build",
+      "Mark Levinson",
+      "E-Latch",
+      "Climate Concierge"
+    ]
+  },
+  {
+    "id": 11,
+    "brand": "Toyota",
+    "model": "Camry",
+    "category": "Sedans",
+    "range": "2500cc",
+    "price": "$31,400",
+    "image": "assets/images/car category/sedans/toyota.camr.png",
+    "tagline": "Reliability King",
+    "description": "The 2025 Camry goes all-hybrid, combining a 2.5L engine with a powerful electric motor. It offers a whisper-quiet cabin and a redesigned 'Hammerhead' front fascia that brings a modern, aggressive edge to the world's favorite family sedan.",
+    "topSpeed": "115 mph",
+    "acceleration": "7.0s",
+    "exterior": "Ocean Gem",
+    "interior": "Cockpit Red Leather",
+    "specs": {
+      "engine": "2.5L 4-Cyl Hybrid",
+      "horsepower": "225 hp"
+    },
+    "features": [
+      "Hybrid e-CVT",
+      "Safety Sense 3.0",
+      "Wireless CarPlay",
+      "Rain-Sensing Wipers"
+    ]
+  },
+  {
+    "id": 12,
+    "brand": "Honda",
+    "model": "Civic",
+    "category": "Sedans",
+    "range": "2000cc",
+    "price": "$26,200",
+    "image": "assets/images/car category/sedans/honda.civic.png",
+    "tagline": "Sporty Daily Driver",
+    "description": "Redefining the compact sedan, the Civic offers a low, wide stance and an expansive glass area for superior visibility. The updated hybrid powertrain delivers instant torque while maintaining the legendary Civic handling.",
+    "topSpeed": "124 mph",
+    "acceleration": "6.2s",
+    "exterior": "Solar Silver Metallic",
+    "interior": "Black Bose Premium",
+    "specs": {
+      "engine": "2.0L 4-Cyl Hybrid",
+      "horsepower": "200 hp"
+    },
+    "features": ["Google Built-in", "Bose Audio", "Sunroof", "Paddle Shifters"]
+  },
+  {
+    "id": 13,
+    "brand": "Tesla",
+    "model": "Model 3",
+    "category": "Sedans",
+    "range": "Electric",
+    "price": "$39,990",
+    "image": "assets/images/car category/sedans/tesla.model3.png",
+    "tagline": "Tech-Forward EV",
+    "description": "The new 'Highland' refresh brings a quieter ride, premium materials, and a sleek aerodynamic profile. With no engine noise and industry-leading software, the Model 3 is a smartphone on wheels.",
+    "topSpeed": "125 mph",
+    "acceleration": "5.8s",
+    "exterior": "Ultra Red",
+    "interior": "Black & White Premium",
+    "specs": {
+      "engine": "Electric Motor",
+      "horsepower": "283 hp"
+    },
+    "features": [
+      "Autopilot",
+      "15.4\" Display",
+      "Glass Roof",
+      "Ventilated Seats"
+    ]
+  },
+  {
+    "id": 14,
+    "brand": "BMW",
+    "model": "3 Series",
+    "category": "Sedans",
+    "range": "2000cc",
+    "price": "$47,500",
+    "image": "assets/images/car category/sedans/bmw.3series.png",
+    "tagline": "Executive Sport",
+    "description": "The 3 Series remains the gold standard for sport sedans. Featuring the BMW Curved Display and an athletic chassis, it balances daily executive comfort with the DNA of a true driver's car.",
+    "topSpeed": "130 mph",
+    "acceleration": "5.6s",
+    "exterior": "Portimao Blue",
+    "interior": "Tacora Red SensaTec",
+    "specs": {
+      "engine": "2.0L Turbo I4",
+      "horsepower": "255 hp"
+    },
+    "features": ["Curved Display", "xDrive", "M-Sport Trim", "Comfort Access"]
+  },
+  {
+    "id": 15,
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "category": "Sedans",
+    "range": "2000cc",
+    "price": "$48,450",
+    "image": "assets/images/car category/sedans/mercedes-banz.c-class.png",
+    "tagline": "Luxury Standard",
+    "description": "A 'Baby S-Class' in every sense. The C-Class features a vertical 11.9-inch touchscreen and a mild-hybrid engine that provides a boost of power for smooth overtaking and supreme highway refinement.",
+    "topSpeed": "130 mph",
+    "acceleration": "6.0s",
+    "exterior": "Manufaktur Alpine Grey",
+    "interior": "Sienna Brown Leather",
+    "specs": {
+      "engine": "2.0L Turbo Mild Hybrid",
+      "horsepower": "255 hp"
+    },
+    "features": [
+      "MBUX Navigation",
+      "64-Color Ambient",
+      "Burmester Sound",
+      "Nappa Steering"
+    ]
+  },
+  {
+    "id": 16,
+    "brand": "Audi",
+    "model": "A4",
+    "category": "Sedans",
+    "range": "2000cc",
+    "price": "$43,100",
+    "image": "assets/images/car category/sedans/audi.a4.png",
+    "tagline": "Sophisticated Tech",
+    "description": "The A4 is the pinnacle of understated German engineering. With standard Quattro all-wheel drive and the Virtual Cockpit, it offers a secure, high-tech environment for all weather conditions.",
+    "topSpeed": "130 mph",
+    "acceleration": "6.3s",
+    "exterior": "Navarra Blue",
+    "interior": "Atlas Beige Leather",
+    "specs": {
+      "engine": "2.0L TFSI Turbo",
+      "horsepower": "201 hp"
+    },
+    "features": ["Quattro AWD", "Virtual Cockpit", "Matrix LED", "Black Optic"]
+  },
+  {
+    "id": 17,
+    "brand": "Hyundai",
+    "model": "Sonata",
+    "category": "Sedans",
+    "range": "2500cc",
+    "price": "$28,600",
+    "image": "assets/images/car category/sedans/hyundai.sonataa.png",
+    "tagline": "Value & Style",
+    "description": "With its futuristic 'Seamless Horizon' LED lamp and a curved panoramic display, the Sonata looks like a concept car brought to life. It offers premium features at a mid-range price point.",
+    "topSpeed": "130 mph",
+    "acceleration": "7.5s",
+    "exterior": "Ultimate Red",
+    "interior": "Dark Grey / Camel",
+    "specs": {
+      "engine": "2.5L 4-Cyl",
+      "horsepower": "191 hp"
+    },
+    "features": ["Curved Display", "HTRAC AWD", "Digital Key 2", "Smart Park"]
+  },
+  {
+    "id": 18,
+    "brand": "Kia",
+    "model": "K5",
+    "category": "Sedans",
+    "range": "2500cc",
+    "price": "$27,900",
+    "image": "assets/images/car category/sedans/kia.k5.png",
+    "tagline": "Aggressive Design",
+    "description": "The K5 is for those who want to stand out. Its 'Z-line' LED lights and driver-centric cockpit make it one of the most exciting sedans on the market, backed by an industry-leading 10-year warranty.",
+    "topSpeed": "130 mph",
+    "acceleration": "7.4s",
+    "exterior": "Wolf Gray",
+    "interior": "Red SynTex",
+    "specs": {
+      "engine": "2.5L 4-Cyl",
+      "horsepower": "191 hp"
+    },
+    "features": [
+      "Remote Start",
+      "Safe Exit Assist",
+      "12.3\" Touchscreen",
+      "AWD"
+    ]
+  },
+  {
+    "id": 19,
+    "brand": "Lexus",
+    "model": "ES",
+    "category": "Sedans",
+    "range": "3500cc",
+    "price": "$43,200",
+    "image": "assets/images/car category/sedans/lexus.es.png",
+    "tagline": "Quiet Comfort",
+    "description": "Renowned for its library-quiet cabin and cloud-like ride quality. The ES 300h hybrid combines luxury materials with exceptional fuel economy, making it the perfect long-distance cruiser.",
+    "topSpeed": "112 mph",
+    "acceleration": "8.1s",
+    "exterior": "Eminent White Pearl",
+    "interior": "Palomino NuLuxe",
+    "specs": {
+      "engine": "2.5L Hybrid",
+      "horsepower": "215 hp"
+    },
+    "features": [
+      "Lexus Safety 2.5",
+      "Mark Levinson",
+      "Heated Steering",
+      "Sunshade"
+    ]
+  },
+  {
+    "id": 20,
+    "brand": "Volvo",
+    "model": "S60",
+    "category": "Sedans",
+    "range": "2000cc",
+    "price": "$43,650",
+    "image": "assets/images/car category/sedans/volvo.s60.png",
+    "tagline": "Swedish Safety",
+    "description": "The S60 brings Scandinavian minimalism to the sedan world. With world-class seating ergonomics and Google built-in, it’s a car designed for human comfort and peace of mind.",
+    "topSpeed": "112 mph",
+    "acceleration": "6.2s",
+    "exterior": "Thunder Grey",
+    "interior": "Charcoal Fine Nappa",
+    "specs": {
+      "engine": "2.0L Turbo Mild Hybrid",
+      "horsepower": "247 hp"
+    },
+    "features": [
+      "Google Built-in",
+      "Pilot Assist",
+      "Harman Kardon",
+      "CleanZone Air"
+    ]
+  },
+  {
+    "id": 21,
+    "brand": "Toyota",
+    "model": "Sienna",
+    "category": "Vans",
+    "range": "2500cc",
+    "price": "$40,420",
+    "image": "assets/images/car category/vans/toyota.sienna.png",
+    "tagline": "Family Hybrid",
+    "description": "The Sienna redefines the minivan with a standard hybrid powertrain and available AWD. It’s designed for modern adventures, featuring best-in-class fuel economy and a spacious, high-tech interior that feels more like a premium lounge than a van.",
+    "topSpeed": "115 mph",
+    "acceleration": "7.7s",
+    "exterior": "Celestial Silver",
+    "interior": "Chateau Leather",
+    "specs": {
+      "engine": "2.5L Hybrid",
+      "horsepower": "245 hp"
+    },
+    "features": [
+      "EV Mode",
+      "Kick-Sensor Doors",
+      "Driver Easy Speak",
+      "Ottoman Seats"
+    ]
+  },
+  {
+    "id": 22,
+    "brand": "Honda",
+    "model": "Odyssey",
+    "category": "Vans",
+    "range": "3500cc",
+    "price": "$44,290",
+    "image": "assets/images/car category/vans/honda.odyssey.png",
+    "tagline": "Versatile Interior",
+    "description": "The Odyssey remains the benchmark for family-hauling dynamics. With its powerful V6 engine and 'Magic Slide' second-row seats, it offers the perfect balance of driving pleasure and ultimate passenger convenience.",
+    "topSpeed": "111 mph",
+    "acceleration": "6.5s",
+    "exterior": "Sonic Gray Pearl",
+    "interior": "Mocha Leather",
+    "specs": {
+      "engine": "3.5L V6",
+      "horsepower": "280 hp"
+    },
+    "features": [
+      "Magic Slide Seats",
+      "CabinWatch",
+      "Honda Vac",
+      "Rear Entertainment"
+    ]
+  },
+  {
+    "id": 23,
+    "brand": "Mercedes-Benz",
+    "model": "Sprinter",
+    "category": "Vans",
+    "range": "2000cc",
+    "price": "$50,830",
+    "image": "assets/images/car category/vans/mercedes-banz.sprinter.png",
+    "tagline": "Commercial Leader",
+    "description": "The Sprinter is the ultimate canvas for business or luxury conversions. Engineered for durability and high-capacity hauling, it brings Mercedes-Benz refinement to the world of heavy-duty commercial transport.",
+    "topSpeed": "90 mph",
+    "acceleration": "11.2s",
+    "exterior": "Arctic White",
+    "interior": "Caluma Black Fabric",
+    "specs": {
+      "engine": "2.0L Turbo Diesel",
+      "horsepower": "170 hp"
+    },
+    "features": [
+      "Active Brake Assist",
+      "MBUX System",
+      "360 Camera",
+      "High Roof Option"
+    ]
+  },
+  {
+    "id": 24,
+    "brand": "Ford",
+    "model": "Transit",
+    "category": "Vans",
+    "range": "3500cc",
+    "price": "$48,400",
+    "image": "assets/images/car category/vans/fort.transit.png",
+    "tagline": "Cargo Master",
+    "description": "The Ford Transit is the backbone of modern logistics. Highly customizable and incredibly reliable, it offers a car-like driving position with the massive volume required for serious cargo or passenger duties.",
+    "topSpeed": "100 mph",
+    "acceleration": "6.8s",
+    "exterior": "Abyss Gray",
+    "interior": "Dark Palazzo Gray",
+    "specs": {
+      "engine": "3.5L V6 PFDi",
+      "horsepower": "275 hp"
+    },
+    "features": ["Ford Co-Pilot360", "SYNC 4", "Power Sliding Door", "AWD"]
+  },
+  {
+    "id": 25,
+    "brand": "Kia",
+    "model": "Carnival",
+    "category": "Vans",
+    "range": "3500cc",
+    "price": "$40,565",
+    "image": "assets/images/car category/vans/kia.carnival.png",
+    "tagline": "Grand Utility Van",
+    "description": "Rejecting the typical 'minivan' look, the Carnival brings SUV styling to the segment. It’s an 'MPV' that offers VIP Lounge seating and a massive panoramic dashboard for a truly premium family experience.",
+    "topSpeed": "118 mph",
+    "acceleration": "7.0s",
+    "exterior": "Flare Red",
+    "interior": "Tuscan Umber Leather",
+    "specs": {
+      "engine": "3.5L V6",
+      "horsepower": "287 hp"
+    },
+    "features": [
+      "VIP Lounge Seats",
+      "Dual Sunroof",
+      "Blind-Spot Monitor",
+      "Bose Audio"
+    ]
+  },
+  {
+    "id": 26,
+    "brand": "Volkswagen",
+    "model": "Transporter (T 7)",
+    "category": "Vans",
+    "range": "2000cc",
+    "price": "$45,800",
+    "image": "assets/images/car category/vans/volkswagen.transporter.png",
+    "tagline": "Lifestyle & Work",
+    "description": "The T7 Multivan brings the legendary VW Bus into the digital age. Built on the MQB platform, it drives like a premium car while providing the flexibility needed for both professional work and active family lifestyles.",
+    "topSpeed": "115 mph",
+    "acceleration": "9.2s",
+    "exterior": "Mono Silver Metallic",
+    "interior": "Raven-Sandwick Fabric",
+    "specs": {
+      "engine": "2.0L TDI Diesel",
+      "horsepower": "150 hp"
+    },
+    "features": ["Modular Seats", "Digital Cockpit", "IQ.Drive", "Table System"]
+  },
+  {
+    "id": 27,
+    "brand": "Hyundai",
+    "model": "Staria",
+    "category": "Vans",
+    "range": "2200cc",
+    "price": "$38,500",
+    "image": "assets/images/car category/vans/hyundai.staria.png",
+    "tagline": "Space-Age Look",
+    "description": "With its futuristic silhouette inspired by a spaceship, the Staria is a head-turner. Inside, it offers expansive glass for a 'panoramic' view and a luxurious, minimalist interior that redefines passenger comfort.",
+    "topSpeed": "115 mph",
+    "acceleration": "8.9s",
+    "exterior": "Abyss Black Pearl",
+    "interior": "Light Gray Nappa",
+    "specs": {
+      "engine": "2.2L Diesel",
+      "horsepower": "272 hp"
+    },
+    "features": [
+      "Parametric Pixels",
+      "Relaxation Seats",
+      "Mood Lighting",
+      "Smart Slider"
+    ]
+  },
+  {
+    "id": 28,
+    "brand": "RAM",
+    "model": "ProMaster",
+    "category": "Vans",
+    "range": "3600cc",
+    "price": "$46,950",
+    "image": "assets/images/car category/vans/ram.promaster.png",
+    "tagline": "Heavy-Duty Hauler",
+    "description": "The ProMaster is built for efficiency with a front-wheel-drive system that allows for a lower load floor height. It’s a purposeful tool designed for maximum uptime and easy upfitting for any trade.",
+    "topSpeed": "100 mph",
+    "acceleration": "8.1s",
+    "exterior": "Bright Silver",
+    "interior": "Black Vinyl",
+    "specs": {
+      "engine": "3.6L V6 Pentastar",
+      "horsepower": "276 hp"
+    },
+    "features": [
+      "Uconnect 5",
+      "D-Pillar Grab Handle",
+      "9-Speed Auto",
+      "Traffic Sign Recognition"
+    ]
+  },
+  {
+    "id": 29,
+    "brand": "Peugeot",
+    "model": "Traveller",
+    "category": "Vans",
+    "range": "2000cc",
+    "price": "$42,100",
+    "image": "assets/images/car category/vans/peugeot.traveller.png",
+    "tagline": "Passenger Luxury",
+    "description": "The Traveller is an invitation to travel in style. Its elegant design and high-end finishings make it the preferred choice for executive shuttles and large families who refuse to compromise on French elegance.",
+    "topSpeed": "115 mph",
+    "acceleration": "10.3s",
+    "exterior": "Cumulus Grey",
+    "interior": "Claudia Black Leather",
+    "specs": {
+      "engine": "2.0L BlueHDi Diesel",
+      "horsepower": "180 hp"
+    },
+    "features": [
+      "Grip Control",
+      "Head-up Display",
+      "Hands-free Doors",
+      "Massage Seats"
+    ]
+  },
+  {
+    "id": 30,
+    "brand": "Toyota",
+    "model": "HiAce",
+    "category": "Vans",
+    "range": "2800cc",
+    "price": "$36,800",
+    "image": "assets/images/car category/vans/toyota .hiace.png",
+    "tagline": "Legend of Durability",
+    "description": "World-renowned for being indestructible, the HiAce is the global standard for reliable transport. The latest generation adds significant safety tech and improved comfort to its legendary workhorse status.",
+    "topSpeed": "103 mph",
+    "acceleration": "12.0s",
+    "exterior": "French Vanilla",
+    "interior": "Black/Grey Fabric",
+    "specs": {
+      "engine": "2.8L Turbo Diesel",
+      "horsepower": "174 hp"
+    },
+    "features": [
+      "Toyota Safety Sense",
+      "Digital Rearview",
+      "Semi-Bonnet Design",
+      "Hill Start Assist"
+    ]
+  },
+  {
+    "id": 31,
+    "brand": "Jeep",
+    "model": "Wrangler",
+    "category": "Jeeps",
+    "range": "3600cc",
+    "price": "$37,290",
+    "image": "assets/images/car category/jeeps/geep.wreangler.png",
+    "tagline": "Trail Master",
+    "description": "The icon of off-roading. The 2025 Wrangler features a heavy-duty full-float rear axle and the legendary Rock-Trac 4x4 system. With its removable doors and roof, it remains the ultimate open-air adventure vehicle for conquering the toughest terrain.",
+    "topSpeed": "110 mph",
+    "acceleration": "6.8s",
+    "exterior": "Sarge Green",
+    "interior": "Black Soul Fabric",
+    "specs": {
+      "engine": "3.6L Pentastar V6",
+      "horsepower": "285 hp"
+    },
+    "features": [
+      "Tru-Lok Differentials",
+      "Sway Bar Disconnect",
+      "Gorilla Glass",
+      "Uconnect 5"
+    ]
+  },
+  {
+    "id": 32,
+    "brand": "Ford",
+    "model": "Bronco",
+    "category": "Jeeps",
+    "range": "2300cc",
+    "price": "$42,490",
+    "image": "assets/images/car category/jeeps/ford.branco.png",
+    "tagline": "Retro Off-Roader",
+    "description": "Blending 1960s heritage with modern tech, the Bronco is built to take you anywhere. Featuring G.O.A.T. (Goes Over Any Type of Terrain) modes and the Sasquatch package, it’s a high-speed desert runner and a technical rock crawler in one.",
+    "topSpeed": "110 mph",
+    "acceleration": "7.0s",
+    "exterior": "Eruption Green",
+    "interior": "Marine Grade Vinyl",
+    "specs": {
+      "engine": "2.3L EcoBoost I-4",
+      "horsepower": "300 hp"
+    },
+    "features": [
+      "G.O.A.T. Modes",
+      "Trail Turn Assist",
+      "HOSS Suspension",
+      "35\" Tires"
+    ]
+  },
+  {
+    "id": 33,
+    "brand": "Suzuki",
+    "model": "Jimny",
+    "category": "Jeeps",
+    "range": "1500cc",
+    "price": "$24,500",
+    "image": "assets/images/car category/jeeps/suzuki.jimny.png",
+    "tagline": "Pocket-Sized Power",
+    "description": "Small, light, and virtually unstoppable. The Jimny uses a ladder frame chassis and a 4WD system with low-range transfer gear to reach places that much larger vehicles cannot. It's the ultimate 'back-to-basics' off-road machine.",
+    "topSpeed": "90 mph",
+    "acceleration": "12.5s",
+    "exterior": "Kinetic Yellow",
+    "interior": "Hard-wearing Grey",
+    "specs": {
+      "engine": "1.5L 4-Cylinder",
+      "horsepower": "101 hp"
+    },
+    "features": ["ALLGRIP PRO", "Ladder Frame", "Rigid Axle", "Hill Descent"]
+  },
+  {
+    "id": 34,
+    "brand": "Land Rover",
+    "model": "Defender 110",
+    "category": "Jeeps",
+    "range": "2000cc",
+    "price": "$63,500",
+    "image": "assets/images/car category/jeeps/land rover.defender.png",
+    "tagline": "Luxury Ruggedness",
+    "description": "The Defender 110 redefines 21st-century adventure. It combines a highly durable 'unibody' architecture with luxury materials and advanced Terrain Response tech, making it as comfortable on the school run as it is crossing the Sahara.",
+    "topSpeed": "119 mph",
+    "acceleration": "7.0s",
+    "exterior": "Pangea Green",
+    "interior": "Ebony Resist",
+    "specs": {
+      "engine": "2.0L Turbocharged I4",
+      "horsepower": "296 hp"
+    },
+    "features": [
+      "Terrain Response",
+      "Air Suspension",
+      "Pivi Pro",
+      "Wade Sensing"
+    ]
+  },
+  {
+    "id": 35,
+    "brand": "Toyota",
+    "model": "Land Cruiser",
+    "category": "Jeeps",
+    "range": "2400cc",
+    "price": "$57,200",
+    "image": "assets/images/car category/jeeps/toyota.land cruiser.png",
+    "tagline": "Extreme Off-Road",
+    "description": "The legend returns with a new hybrid heart. The 2025 Land Cruiser focuses on off-road agility and heritage design. Its i-FORCE MAX powertrain provides massive torque from low RPMs, perfect for crawling over technical obstacles.",
+    "topSpeed": "110 mph",
+    "acceleration": "7.7s",
+    "exterior": "Heritage Blue",
+    "interior": "Java SophTex",
+    "specs": {
+      "engine": "2.4L i-FORCE MAX Hybrid",
+      "horsepower": "326 hp"
+    },
+    "features": [
+      "Crawl Control",
+      "Multi-Terrain Monitor",
+      "Locking Diff",
+      "AC Inverter"
+    ]
+  },
+  {
+    "id": 36,
+    "brand": "Mercedes-Benz",
+    "model": "G-Class (G550)",
+    "category": "Jeeps",
+    "range": "3000cc",
+    "price": "$150,000",
+    "image": "assets/images/car category/jeeps/mercedes-banz.g-class.png",
+    "tagline": "Ultimate Status Symbol",
+    "description": "The 'G-Wagon' remains an engineering marvel. For 2025, it gains a more efficient inline-six with electric assist. Despite its luxury status, with three locking differentials, it is still one of the most capable SUVs ever built.",
+    "topSpeed": "130 mph",
+    "acceleration": "5.1s",
+    "exterior": "Arabian Grey",
+    "interior": "Macchiato Beige Nappa",
+    "specs": {
+      "engine": "3.0L Inline-6 Turbo",
+      "horsepower": "443 hp"
+    },
+    "features": [
+      "3 Locking Diffs",
+      "Transparent Hood",
+      "MBUX Cockpit",
+      "Low Range"
+    ]
+  },
+  {
+    "id": 37,
+    "brand": "Lexus",
+    "model": "GX 550",
+    "category": "Jeeps",
+    "range": "3400cc",
+    "price": "$66,935",
+    "image": "assets/images/car category/jeeps/lexus.gx.png",
+    "tagline": "Comfort 4x4",
+    "description": "The GX 550 is a 'sophisticated beast.' It combines Lexus luxury with a rugged body-on-frame construction. The Overtrail grade includes electronic kinetic dynamic suspension (E-KDDS) for maximum wheel articulation.",
+    "topSpeed": "109 mph",
+    "acceleration": "6.5s",
+    "exterior": "Earth & Black",
+    "interior": "NuLuxe Overtrail",
+    "specs": {
+      "engine": "3.4L Twin-Turbo V6",
+      "horsepower": "349 hp"
+    },
+    "features": ["E-KDSS", "9000lb Towing", "Panoramic View", "Massaging Seats"]
+  },
+  {
+    "id": 38,
+    "brand": "Toyota",
+    "model": "4Runner",
+    "category": "Jeeps",
+    "range": "2400cc",
+    "price": "$43,065",
+    "image": "assets/images/car category/jeeps/toyota.4runner.png",
+    "tagline": "Old-School Tough",
+    "description": "After a decade, the 4Runner is completely reborn. Built on the TNGA-F global truck platform, it features a roll-down rear window and incredible durability, ready to continue its legacy as a favorite for overlanders.",
+    "topSpeed": "115 mph",
+    "acceleration": "7.5s",
+    "exterior": "Mudbath",
+    "interior": "Black Leatherette",
+    "specs": {
+      "engine": "2.4L Turbocharged I4",
+      "horsepower": "278 hp"
+    },
+    "features": [
+      "Stabilizer Disconnect",
+      "Roll-down Window",
+      "Skid Plates",
+      "TRD Tuned"
+    ]
+  },
+  {
+    "id": 39,
+    "brand": "Jeep",
+    "model": "Gladiator",
+    "category": "Jeeps",
+    "range": "3600cc",
+    "price": "$38,830",
+    "image": "assets/images/car category/jeeps/jeep.gladiator.png",
+    "tagline": "Off-Road Pickup",
+    "description": "The only convertible truck in its class. The Gladiator takes the Wrangler's legendary 4x4 capability and adds a versatile 5-foot steel bed. It's the perfect tool for hauling gear to the furthest reaches of the map.",
+    "topSpeed": "110 mph",
+    "acceleration": "8.5s",
+    "exterior": "Hydro Blue",
+    "interior": "Nappa Leather",
+    "specs": {
+      "engine": "3.6L V6 24V VVT",
+      "horsepower": "285 hp"
+    },
+    "features": ["Dana 44 Axles", "Fox Shocks", "TrailCam", "Removable Top"]
+  },
+  {
+    "id": 40,
+    "brand": "Isuzu",
+    "model": "D-Max",
+    "category": "Jeeps",
+    "range": "3000cc",
+    "price": "$36,200",
+    "image": "assets/images/car category/jeeps/isuzu.d-max.png",
+    "tagline": "Utility Beast",
+    "description": "Known for its 'over-engineered' diesel engine, the D-Max is a workhorse that refuses to quit. The 3.0L turbo-diesel provides relentless torque for towing and traversing deep mud or water with ease.",
+    "topSpeed": "109 mph",
+    "acceleration": "9.8s",
+    "exterior": "Magnetic Red",
+    "interior": "Rugged Cloth",
+    "specs": {
+      "engine": "3.0L Turbo-Diesel",
+      "horsepower": "190 hp"
+    },
+    "features": [
+      "800mm Wading",
+      "Rear Diff Lock",
+      "ADAS Safety",
+      "Apple CarPlay"
+    ]
+  },
+  {
+    "id": 41,
+    "brand": "Chevrolet",
+    "model": "Corvette C8",
+    "category": "Sports",
+    "range": "6200cc",
+    "price": "$68,300",
+    "image": "assets/images/car category/sports car/chevrolet corvette c8.png",
+    "tagline": "Supercar Killer",
+    "description": "The mid-engine revolution continues. The C8 Stingray delivers exotic-level performance at a fraction of the cost, featuring a driver-centric cockpit and a screaming naturally aspirated V8 that rivals European elite.",
+    "topSpeed": "194 mph",
+    "acceleration": "2.9s",
+    "exterior": "Torch Red",
+    "interior": "Adrenaline Red Napa",
+    "specs": {
+      "engine": "6.2L V8",
+      "horsepower": "495 hp"
+    },
+    "features": [
+      "Magnetic Ride 4.0",
+      "Performance Data Recorder",
+      "Z51 Package",
+      "Front Lift System"
+    ]
+  },
+  {
+    "id": 42,
+    "brand": "Lamborghini",
+    "model": "Huracán Tecnica",
+    "category": "Sports",
+    "range": "5200cc",
+    "price": "$249,865",
+    "image": "assets/images/car category/sports car/lomborghini huracan.png",
+    "tagline": "Italian V10 Speed",
+    "description": "A bridge between the track-focused STO and the road-oriented EVO. The Tecnica offers rear-wheel-drive purity with advanced LDVI (Lamborghini Integrated Vehicle Dynamics) for a raw, visceral driving experience.",
+    "topSpeed": "202 mph",
+    "acceleration": "3.1s",
+    "exterior": "Verde Selvans",
+    "interior": "Nero Ade Alcantara",
+    "specs": {
+      "engine": "5.2L V10",
+      "horsepower": "640 hp"
+    },
+    "features": [
+      "Rear-Wheel Steering",
+      "Carbon Ceramic Brakes",
+      "Fixed Rear Wing",
+      "Hexagonal Exhaust"
+    ]
+  },
+  {
+    "id": 43,
+    "brand": "Porsche",
+    "model": "911 Carrera (992.2)",
+    "category": "Sports",
+    "range": "3000cc",
+    "price": "$120,100",
+    "image": "assets/images/car category/sports car/porsche.911.png",
+    "tagline": "Performance Icon",
+    "description": "The 992.2 facelift brings the 911 into a digital era. With updated turbos from the previous GTS model and a fully digital cockpit, it remains the most versatile and precise sports car in the world.",
+    "topSpeed": "183 mph",
+    "acceleration": "3.7s",
+    "exterior": "Gentian Blue Metallic",
+    "interior": "Slate Grey Leather",
+    "specs": {
+      "engine": "3.0L Twin-Turbo Flat-6",
+      "horsepower": "388 hp"
+    },
+    "features": [
+      "8-Speed PDK",
+      "PASM Suspension",
+      "Matrix LED Headlights",
+      "Digital Instrument Cluster"
+    ]
+  },
+  {
+    "id": 44,
+    "brand": "BMW",
+    "model": "M4 Coupe (LCI)",
+    "category": "Sports",
+    "range": "3000cc",
+    "price": "$79,100",
+    "image": "assets/images/car category/sports car/bmw m4.png",
+    "tagline": "German Muscle",
+    "description": "The 2025 LCI update refines the M4 with new lighting signatures and a power bump for xDrive models. It's a high-performance athlete that masters the balance between daily comfort and track dominance.",
+    "topSpeed": "180 mph",
+    "acceleration": "3.4s",
+    "exterior": "Isle of Man Green",
+    "interior": "Kyalami Orange Merino",
+    "specs": {
+      "engine": "3.0L Twin-Turbo I-6",
+      "horsepower": "473 hp"
+    },
+    "features": [
+      "M Drift Analyser",
+      "Carbon Fiber Roof",
+      "Curved Display",
+      "Active M Differential"
+    ]
+  },
+  {
+    "id": 45,
+    "brand": "Ford",
+    "model": "Mustang GT",
+    "category": "Sports",
+    "range": "5000cc",
+    "price": "$46,560",
+    "image": "assets/images/car category/sports car/mustang gt.png",
+    "tagline": "V8 Legend",
+    "description": "The 7th generation S650 Mustang keeps the V8 soul alive. Featuring a dual-intake engine and an available electronic 'Drift Brake,' it combines old-school muscle with fighter-jet inspired interior tech.",
+    "topSpeed": "155 mph",
+    "acceleration": "4.3s",
+    "exterior": "Vapor Blue",
+    "interior": "Space Gray Leather",
+    "specs": {
+      "engine": "5.0L Coyote V8",
+      "horsepower": "486 hp"
+    },
+    "features": [
+      "Electronic Drift Brake",
+      "Active Valve Exhaust",
+      "Remote Rev",
+      "Magneride Damping"
+    ]
+  },
+  {
+    "id": 46,
+    "brand": "Toyota",
+    "model": "GR86",
+    "category": "Sports",
+    "range": "2400cc",
+    "price": "$30,000",
+    "image": "assets/images/car category/sports car/toyota gr86.png",
+    "tagline": "Balanced Drifting",
+    "description": "The purist's choice. Lightweight, rear-wheel drive, and perfectly balanced. The GR86 is designed by Gazoo Racing to deliver maximum feedback and handling joy without needing supercar power.",
+    "topSpeed": "140 mph",
+    "acceleration": "6.1s",
+    "exterior": "Track bRed",
+    "interior": "Ultrasuede Sport",
+    "specs": {
+      "engine": "2.4L Boxer-4",
+      "horsepower": "228 hp"
+    },
+    "features": [
+      "Track Mode",
+      "Torsen LSD",
+      "GR Circuit Suspension",
+      "Boxer Engine Sound"
+    ]
+  },
+  {
+    "id": 47,
+    "brand": "Ferrari",
+    "model": "296 GTB",
+    "category": "Sports",
+    "range": "3000cc",
+    "price": "$346,950",
+    "image": "assets/images/car category/sports car/ferrari 296 gtb.png",
+    "tagline": "Exotic Power",
+    "description": "Defining the 'fun to drive' concept. The 296 GTB pairs a V6 with a plug-in hybrid system for nearly 820 horsepower, delivering a sound so pure it's nicknamed the 'Piccolo handles like a dream.'",
+    "topSpeed": "205 mph",
+    "acceleration": "2.9s",
+    "exterior": "Rosso Imola",
+    "interior": "Crema Leather",
+    "specs": {
+      "engine": "3.0L V6 Hybrid",
+      "horsepower": "819 hp"
+    },
+    "features": [
+      "eManettino",
+      "Assetto Fiorano Pack",
+      "Active Spoiler",
+      "ABS EVO"
+    ]
+  },
+  {
+    "id": 48,
+    "brand": "Porsche",
+    "model": "718 Cayman",
+    "category": "Sports",
+    "range": "2000cc",
+    "price": "$72,800",
+    "image": "assets/images/car category/sports car/porsche 718 cayman.png",
+    "tagline": "Precision Handling",
+    "description": "Mid-engine perfection. The 718 Cayman offers a level of communication between driver and road that is unmatched. It is arguably the best-handling platform in Porsche's current lineup.",
+    "topSpeed": "171 mph",
+    "acceleration": "4.7s",
+    "exterior": "Shark Blue",
+    "interior": "Black Leather/Alcantara",
+    "specs": {
+      "engine": "2.0L Turbo Boxer-4",
+      "horsepower": "300 hp"
+    },
+    "features": [
+      "Sport Chrono Package",
+      "Porsche Torque Vectoring",
+      "PASM",
+      "PDK Transmission"
+    ]
+  },
+  {
+    "id": 49,
+    "brand": "Nissan",
+    "model": "Z",
+    "category": "Sports",
+    "range": "3000cc",
+    "price": "$42,970",
+    "image": "assets/images/car category/sports car/nissan z.png ",
+    "tagline": "Twin-Turbo Classic",
+    "description": "A love letter to 50 years of Z heritage. With styling cues from the 240Z and 300ZX, the new Z features a twin-turbo V6 and a mechanical limited-slip differential for classic RWD thrills.",
+    "topSpeed": "155 mph",
+    "acceleration": "4.5s",
+    "exterior": "Ikazuchi Yellow",
+    "interior": "Blue Synthetic Suede",
+    "specs": {
+      "engine": "3.0L Twin-Turbo V6",
+      "horsepower": "400 hp"
+    },
+    "features": [
+      "Launch Control",
+      "SynchroRev Match",
+      "Akebono Brakes",
+      "Triple Pod Gauges"
+    ]
+  },
+  {
+    "id": 50,
+    "brand": "Mazda",
+    "model": "MX-5 Miata",
+    "category": "Sports",
+    "range": "2000cc",
+    "price": "$29,530",
+    "image": "assets/images/car category/sports car/mazda mx-5 miata.png",
+    "tagline": "Pure Roadster",
+    "description": "The world's best-selling roadster. The 2025 Miata focuses on weight reduction and human-machine unity. It's not about the speed; it's about the feeling of the wind and the perfect gear shift.",
+    "topSpeed": "143 mph",
+    "acceleration": "5.7s",
+    "exterior": "Soul Red Crystal",
+    "interior": "Tan Nappa Leather",
+    "specs": {
+      "engine": "2.0L I-4",
+      "horsepower": "181 hp"
+    },
+    "features": [
+      "Kinematic Posture Control",
+      "Bilstein Shocks",
+      "Bose Audio",
+      "Track Mode DSC"
+    ]
+  },
+  {
+    "id": 51,
+    "brand": "Rolls-Royce",
+    "model": "Silver Ghost",
+    "category": "Vintage",
+    "range": "7400cc",
+    "price": "$1,815,000",
+    "image": "assets/images/car category/vintage cars/rolls-royce.png",
+    "tagline": "1906 Luxury",
+    "description": "Widely considered the 'Best Car in the World' at its launch, the Silver Ghost set the standard for reliability and near-silent operation. Its over-engineered 7.4L engine was designed to run so smoothly that a coin could be balanced on the radiator while the engine was idling.",
+    "topSpeed": "78 mph",
+    "acceleration": "20.0s",
+    "exterior": "Silver & Chrome",
+    "interior": "Green Button-Tufted Leather",
+    "specs": {
+      "engine": "7.4L Inline-6",
+      "horsepower": "50 hp"
+    },
+    "features": [
+      "Barker Coachwork",
+      "Non-Syncromesh Gearbox",
+      "Gas-lit Lamps",
+      "Spirit of Ecstasy"
+    ]
+  },
+  {
+    "id": 52,
+    "brand": "Ford",
+    "model": "Model T",
+    "category": "Vintage",
+    "range": "2900cc",
+    "price": "$25,000",
+    "image": "assets/images/car category/vintage cars/fort.model it.png",
+    "tagline": "1908 Mass Market",
+    "description": "The car that put the world on wheels. Henry Ford's masterpiece utilized the first moving assembly line, making automobile ownership possible for the middle class. Rugged and simple, it could navigate the unpaved muddy roads of early 20th-century America with ease.",
+    "topSpeed": "45 mph",
+    "acceleration": "25.0s",
+    "exterior": "Gloss Black",
+    "interior": "Black Leatherette",
+    "specs": {
+      "engine": "2.9L Inline-4",
+      "horsepower": "20 hp"
+    },
+    "features": [
+      "Planetary Transmission",
+      "Hand Crank Start",
+      "Wood-Spoke Wheels",
+      "Acetylene Headlights"
+    ]
+  },
+  {
+    "id": 53,
+    "brand": "Mercedes-Benz",
+    "model": "300SL Gullwing",
+    "category": "Vintage",
+    "range": "3000cc",
+    "price": "$1,600,000",
+    "image": "assets/images/car category/vintage cars/mercedes-banz.300sl.png",
+    "tagline": "1954 Design Icon",
+    "description": "Born from a Le Mans-winning racer, the 300SL introduced the world to fuel injection and iconic 'Gullwing' doors. Its tubular spaceframe chassis necessitated the high sills that made the unique door design a mechanical necessity rather than just a stylistic choice.",
+    "topSpeed": "161 mph",
+    "acceleration": "7.4s",
+    "exterior": "Silver Arrow Grey",
+    "interior": "Red Plaid Fabric",
+    "specs": {
+      "engine": "3.0L Inline-6",
+      "horsepower": "240 hp"
+    },
+    "features": [
+      "Mechanical Fuel Injection",
+      "Gullwing Doors",
+      "Swing Axle",
+      "Aluminum Body Panels"
+    ]
+  },
+  {
+    "id": 54,
+    "brand": "Jaguar",
+    "model": "E-Type Series 1",
+    "category": "Vintage",
+    "range": "3800cc",
+    "price": "$175,000",
+    "image": "assets/images/car category/vintage cars/jaguar.e-type.png",
+    "tagline": "1961 Style Icon",
+    "description": "Enzo Ferrari famously called the E-Type 'the most beautiful car ever made.' Beyond its looks, it offered 150 mph performance at a fraction of the cost of its Italian rivals, becoming the definitive symbol of the 'Swinging Sixties.'",
+    "topSpeed": "150 mph",
+    "acceleration": "7.0s",
+    "exterior": "British Racing Green",
+    "interior": "Tan Leather",
+    "specs": {
+      "engine": "3.8L Inline-6",
+      "horsepower": "265 hp"
+    },
+    "features": [
+      "Monocoque Construction",
+      "Triple SU Carburetors",
+      "Inboard Rear Brakes",
+      "Wire Wheels"
+    ]
+  },
+  {
+    "id": 55,
+    "brand": "Aston Martin",
+    "model": "DB5",
+    "category": "Vintage",
+    "range": "4000cc",
+    "price": "$896,500",
+    "image": "assets/images/car category/vintage cars/aston.martin.png",
+    "tagline": "1963 Bond Classic",
+    "description": "Perhaps the most famous car in the world due to its association with James Bond. The DB5 is the quintessence of the British Grand Tourer, combining Italian Superleggera styling with a powerful 4.0L straight-six engine.",
+    "topSpeed": "145 mph",
+    "acceleration": "7.9s",
+    "exterior": "Silver Birch",
+    "interior": "Black Connolly Leather",
+    "specs": {
+      "engine": "4.0L Inline-6",
+      "horsepower": "282 hp"
+    },
+    "features": [
+      "ZF 5-Speed Gearbox",
+      "Superleggera Body",
+      "Wool Carpeting",
+      "Electric Windows"
+    ]
+  },
+  {
+    "id": 56,
+    "brand": "Ferrari",
+    "model": "250 GTO",
+    "category": "Vintage",
+    "range": "3000cc",
+    "price": "$52,000,000",
+    "image": "assets/images/car category/vintage cars/ferrari.250 gto.png",
+    "tagline": "1962 Rare Racing",
+    "description": "The 'Holy Grail' of car collecting. Only 36 were ever produced to compete in the FIA's Group 3 Grand Touring category. It represents the absolute pinnacle of the front-engine V12 era, dominating tracks worldwide in the early 60s.",
+    "topSpeed": "174 mph",
+    "acceleration": "4.1s",
+    "exterior": "Rosso Corsa",
+    "interior": "Blue Cloth Racing Seats",
+    "specs": {
+      "engine": "3.0L V12",
+      "horsepower": "300 hp"
+    },
+    "features": [
+      "Colombo V12",
+      "Dry Sump Lubrication",
+      "Watts Linkage",
+      "Borrani Wheels"
+    ]
+  },
+  {
+    "id": 57,
+    "brand": "Volkswagen",
+    "model": "Beetle",
+    "category": "Vintage",
+    "range": "1100cc",
+    "price": "$32,500",
+    "image": "assets/images/car category/vintage cars/volkswagen.beetle.png",
+    "tagline": "1938 People's Car",
+    "description": "Designed by Ferdinand Porsche, the Beetle became the best-selling car in history. Its air-cooled, rear-engine layout was designed for simplicity and longevity, becoming a cultural icon for generations of drivers.",
+    "topSpeed": "62 mph",
+    "acceleration": "27.5s",
+    "exterior": "Pastel Blue",
+    "interior": "Grey Vinyl",
+    "specs": {
+      "engine": "1.1L Flat-4",
+      "horsepower": "25 hp"
+    },
+    "features": [
+      "Air-cooled Engine",
+      "Rear-engine Layout",
+      "Wolfsburg Emblem",
+      "Torsion Bar Suspension"
+    ]
+  },
+  {
+    "id": 58,
+    "brand": "Porsche",
+    "model": "911 Classic",
+    "category": "Vintage",
+    "range": "2000cc",
+    "price": "$250,000",
+    "image": "assets/images/car category/vintage cars/porsche.911 classic.png",
+    "tagline": "1964 Rear-Engine",
+    "description": "The birth of a legend. Replacing the 356, the first 911 introduced the iconic six-cylinder 'boxer' engine. Its distinctive silhouette and rear-engine driving dynamics created a blueprint that Porsche still follows 60 years later.",
+    "topSpeed": "130 mph",
+    "acceleration": "8.3s",
+    "exterior": "Bahama Yellow",
+    "interior": "Pepita (Houndstooth)",
+    "specs": {
+      "engine": "2.0L Flat-6",
+      "horsepower": "130 hp"
+    },
+    "features": [
+      "Air-cooled Boxer",
+      "Fuchs Wheels",
+      "5-dial Dashboard",
+      "Rack & Pinion Steering"
+    ]
+  },
+  {
+    "id": 59,
+    "brand": "Chevrolet",
+    "model": "Corvette C1",
+    "category": "Vintage",
+    "range": "3900cc",
+    "price": "$165,000",
+    "image": "assets/images/car category/vintage cars/chevrolet.corvette c1.png",
+    "tagline": "1953 US Heritage",
+    "description": "The first American sports car. Featuring a fiberglass body and a 'Blue Flame' straight-six, the 1953 Corvette was a bold experiment by GM. While early models were cruisers, they paved the way for America's high-performance future.",
+    "topSpeed": "108 mph",
+    "acceleration": "11.2s",
+    "exterior": "Polo White",
+    "interior": "Sportsman Red Leather",
+    "specs": {
+      "engine": "3.9L Blue Flame I6",
+      "horsepower": "150 hp"
+    },
+    "features": [
+      "Fiberglass Body",
+      "2-Speed Powerglide",
+      "Snap-in Windows",
+      "Whitewall Tires"
+    ]
+  },
+  {
+    "id": 60,
+    "brand": "Citroën",
+    "model": "DS",
+    "category": "Vintage",
+    "range": "1900cc",
+    "price": "$45,000",
+    "image": "assets/images/car category/vintage cars/citroen.ds.png",
+    "tagline": "1955 Futuristic",
+    "description": "Commonly known as the 'Goddess' (Déesse), the DS looked like it landed from another planet in 1955. It introduced hydropneumatic self-leveling suspension, providing a 'magic carpet' ride that no other car could match.",
+    "topSpeed": "98 mph",
+    "acceleration": "21.2s",
+    "exterior": "Aubergine",
+    "interior": "Helanca Grey Nylon",
+    "specs": {
+      "engine": "1.9L Inline-4",
+      "horsepower": "75 hp"
+    },
+    "features": [
+      "Hydropneumatic Suspension",
+      "Directional Headlights",
+      "Single-spoke Wheel",
+      "Semi-auto Gearbox"
+    ]
+  },
+  {
+    "id": 61,
+    "brand": "Toyota",
+    "model": "RAV4",
+    "category": "SUV",
+    "range": "2500cc",
+    "price": "$31,675",
+    "image": "assets/images/car category/suvs/toyota rav4.png",
+    "tagline": "Global Top Seller",
+    "description": "The RAV4 remains the world's most versatile compact SUV. With its hybrid efficiency and rugged 'Adventure' grade styling, it offers a balanced ride that transition effortlessly from city commutes to weekend trails.",
+    "topSpeed": "115 mph",
+    "acceleration": "7.3s",
+    "exterior": "Army Green",
+    "interior": "Black SofTex",
+    "specs": {
+      "engine": "2.5L 4-Cylinder Hybrid",
+      "horsepower": "219 hp"
+    },
+    "features": [
+      "Electronic On-Demand AWD",
+      "Toyota Safety Sense 2.5",
+      "JBL Audio",
+      "Panoramic Roof"
+    ]
+  },
+  {
+    "id": 62,
+    "brand": "Honda",
+    "model": "CR-V",
+    "category": "SUV",
+    "range": "1500cc",
+    "price": "$32,315",
+    "image": "assets/images/car category/suvs/honda car-v.png",
+    "tagline": "Family Practicality",
+    "description": "Setting the bar for interior space and cargo flexibility, the CR-V features a clean, minimalist dashboard and Honda’s stable handling. It is widely considered the most user-friendly SUV for growing families.",
+    "topSpeed": "120 mph",
+    "acceleration": "8.0s",
+    "exterior": "Canyon River Blue",
+    "interior": "Gray Perforated Leather",
+    "specs": {
+      "engine": "1.5L Turbocharged I4",
+      "horsepower": "190 hp"
+    },
+    "features": [
+      "Real Time AWD",
+      "Honda Sensing",
+      "Power Tailgate",
+      "Wireless Phone Charger"
+    ]
+  },
+  {
+    "id": 63,
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "category": "SUV",
+    "range": "2500cc",
+    "price": "$29,200",
+    "image": "assets/images/car category/suvs/hyundai tucson.png",
+    "tagline": "Cutting-Edge Tech",
+    "description": "The Tucson stands out with its 'Parametric Hidden Lights' and bold geometric body lines. Inside, the buttonless console and dual-stacked screens offer a futuristic environment rarely seen at this price point.",
+    "topSpeed": "120 mph",
+    "acceleration": "8.8s",
+    "exterior": "Amazon Gray",
+    "interior": "Black Leather",
+    "specs": {
+      "engine": "2.5L GDI 4-Cylinder",
+      "horsepower": "187 hp"
+    },
+    "features": [
+      "Smart Park Assist",
+      "H-Tex Seats",
+      "Bluelink+ Connected",
+      "10.25-inch Cluster"
+    ]
+  },
+  {
+    "id": 64,
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "category": "SUV",
+    "range": "2000cc",
+    "price": "$32,280",
+    "image": "assets/images/car category/suvs/volkswagen.tiguan.png",
+    "tagline": "European Refined",
+    "description": "Combining German engineering with a sophisticated ride, the Tiguan is one of the few compact SUVs to offer an available third row. It’s the 'grown-up' choice for those who want a premium feel without the luxury price tag.",
+    "topSpeed": "125 mph",
+    "acceleration": "8.2s",
+    "exterior": "Atlantic Blue",
+    "interior": "Storm Gray V-Tex",
+    "specs": {
+      "engine": "2.0L Turbocharged I4",
+      "horsepower": "184 hp"
+    },
+    "features": [
+      "4MOTION AWD",
+      "Digital Cockpit Pro",
+      "IQ.DRIVE",
+      "App-Connect"
+    ]
+  },
+  {
+    "id": 65,
+    "brand": "Kia",
+    "model": "Telluride",
+    "category": "SUV",
+    "range": "3800cc",
+    "price": "$38,300",
+    "image": "assets/images/car category/suvs/kia telluride.png",
+    "tagline": "3-Row Premium",
+    "description": "The Telluride has dominated the 3-row segment since its debut. It offers a near-luxury experience with high-end materials, massive passenger space, and a confident V6 engine that’s ready for towing.",
+    "topSpeed": "130 mph",
+    "acceleration": "6.8s",
+    "exterior": "Jungle Green",
+    "interior": "Terracotta Nappa Leather",
+    "specs": {
+      "engine": "3.8L V6",
+      "horsepower": "291 hp"
+    },
+    "features": [
+      "Dual Panoramic Displays",
+      "Tow Mode",
+      "Quiet Mode",
+      "HUD Display"
+    ]
+  },
+  {
+    "id": 66,
+    "brand": "BMW",
+    "model": "X5 sDrive40i",
+    "category": "SUV",
+    "range": "3000cc",
+    "price": "$72,600",
+    "image": "assets/images/car category/suvs/bmw x5.png",
+    "tagline": "Performance Luxury",
+    "description": "The X5 continues to be the ultimate Sports Activity Vehicle. With a silky smooth inline-six and the latest BMW Curved Display, it provides an athletic driving experience that few other SUVs can replicate.",
+    "topSpeed": "130 mph",
+    "acceleration": "5.3s",
+    "exterior": "Brooklyn Grey",
+    "interior": "Coffee Sensafin",
+    "specs": {
+      "engine": "3.0L Inline-6 Turbo",
+      "horsepower": "375 hp"
+    },
+    "features": [
+      "BMW Curved Display",
+      "Dynamic Damper Control",
+      "Parking Assistant",
+      "Sky Lounge Roof"
+    ]
+  },
+  {
+    "id": 67,
+    "brand": "Toyota",
+    "model": "Highlander",
+    "category": "SUV",
+    "range": "2400cc",
+    "price": "$47,065",
+    "image": "assets/images/car category/suvs/toyota highlander.png",
+    "tagline": "Reliable Family Hauler",
+    "description": "Practicality personified. The Highlander focuses on safety and longevity. Its turbocharged powertrain provides ample torque for highway merging even when fully loaded with eight passengers and gear.",
+    "topSpeed": "115 mph",
+    "acceleration": "7.2s",
+    "exterior": "Moon Dust",
+    "interior": "Graphite Leather",
+    "specs": {
+      "engine": "2.4L Turbocharged I4",
+      "horsepower": "265 hp"
+    },
+    "features": [
+      "Safety Sense 3.0",
+      "Driver Easy Speak",
+      "8-passenger Seating",
+      "Direct Shift 8AT"
+    ]
+  },
+  {
+    "id": 68,
+    "brand": "Porsche",
+    "model": "Cayenne",
+    "category": "SUV",
+    "range": "3000cc",
+    "price": "$88,800",
+    "image": "assets/images/car category/suvs/porsche cayenne.png",
+    "tagline": "Sportiest SUV",
+    "description": "The Cayenne is a sports car in an SUV’s body. Following a massive 2024 interior and chassis update, it delivers a driving feel that is characteristically Porsche, featuring incredible poise and high-speed stability.",
+    "topSpeed": "154 mph",
+    "acceleration": "5.7s",
+    "exterior": "Montego Blue Metallic",
+    "interior": "Bramble/Chalk Leather",
+    "specs": {
+      "engine": "3.0L Turbo V6",
+      "horsepower": "348 hp"
+    },
+    "features": [
+      "PASM Suspension",
+      "Porsche Driver Experience",
+      "Matrix Design LED",
+      "Sport Chrono"
+    ]
+  },
+  {
+    "id": 69,
+    "brand": "Chevrolet",
+    "model": "Tahoe LS",
+    "category": "SUV",
+    "range": "5300cc",
+    "price": "$63,495",
+    "image": "assets/images/car category/suvs/chevrolet tahoe.png",
+    "tagline": "V8 Towing Power",
+    "description": "An American icon of size and strength. The Tahoe is built on a truck-based frame, allowing for massive towing capacity and an interior large enough to serve as a mobile office or family headquarters.",
+    "topSpeed": "115 mph",
+    "acceleration": "7.4s",
+    "exterior": "Lakeshore Blue",
+    "interior": "Jet Black Premium Cloth",
+    "specs": {
+      "engine": "5.3L EcoTec3 V8",
+      "horsepower": "355 hp"
+    },
+    "features": [
+      "Super Cruise Capable",
+      "Best-in-Class Cargo",
+      "HD Surround Vision",
+      "Max Trailering Pack"
+    ]
+  },
+  {
+    "id": 70,
+    "brand": "Kia",
+    "model": "Sportage",
+    "category": "SUV",
+    "range": "2500cc",
+    "price": "$28,900",
+    "image": "assets/images/car category/suvs/kia sportage.png",
+    "tagline": "Modern Urban SUV",
+    "description": "The Sportage features a striking 'Opposites United' design philosophy. With class-leading rear legroom and a massive curved digital interface, it feels significantly more expensive than its sticker price suggests.",
+    "topSpeed": "120 mph",
+    "acceleration": "8.6s",
+    "exterior": "Dawg Grey",
+    "interior": "Sage Green SynTex",
+    "specs": {
+      "engine": "2.5L 4-Cylinder",
+      "horsepower": "187 hp"
+    },
+    "features": [
+      "Panoramic Curved Display",
+      "360 Blind-Spot View",
+      "Harman Kardon Audio",
+      "All-Terrain Tires"
+    ]
+  }
+]

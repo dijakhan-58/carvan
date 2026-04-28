@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  
+  
+   <!-- fevicon -->
+   <link rel="icon" href="assets/logo/carvan-logo.png"  />
+   <title>Carvan-home</title>
+  
+     <link rel="stylesheet" href="css/aos.css">
+      <!-- bootstrap css -->
+   <link rel="stylesheet"  href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+  <!-- font  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=JetBrains+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/responsive.css" />
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+ 
+</head>
+<body class="bg-black text-white font-sans antialiased selection:bg-brand selection:text-white">
+    <!-- navbar -->
+
+   <div class="overlay" id="navOverlay" onclick="closeNav()"></div>
+
+<nav class="carvan-nav">
+  <a href="#" class="nav-logo">
+    <img src="assets/logo/carvan-logo.png" alt="CARVAN" />
+  </a>
+
+  <div class="sidebar-trigger" onclick="openNav()">
+    <i class="fa-solid fa-bars-staggered"></i>
+  </div>
+</nav>
+ 
+<div class="sidebar-panel" id="sidePanel">
+  <div class="close-sidebar" onclick="closeNav()">
+    <i class="fa-solid fa-xmark"></i>
+  </div>
+
+   <div class="sidebar-links">
+        <div class="bar">NAVIGATION_MENU</div>
+        <ul>
+          <li><a href="index.html" class="side-link">Home</a></li>
+          <li><a href="about.html" class="side-link">About</a></li>
+          <li><a href="range.html" class="side-link">The Range</a></li>
+          <li><a href="preowned.html" class="side-link">Pre-Owned</a></li>
+          <li><a href="brands.html" class="side-link">Brands</a></li>
+          <li><a href="contact.html" class="side-link">Contact</a></li>
+        </ul>
+      </div>
+</div>
+    <!-- banner -->
+    <section class="hero-banner1">
+      <img
+        src="assets/ban2.jfif"
+        class="hero-car"
+        alt="CARVAN Hero"
+        data-aos="fade-left"
+        data-aos-duration="2000"
+      />
+
+      <div class="hud-overlay">
+        <div class="hud-top">
+          <div class="trip-info">
+            <h1 data-aos="zoom-in" data-aos-delay="200" style="color: #8f0d0d">
+              CARVAN
+            </h1>
+            <p class="head" data-aos="fade-up" data-aos-delay="400">
+              LARGEST ONLINE MARKETPLACE // FAMILY, BUSINESS & INDIVIDUALS
+            </p>
+
+            <div class="stat-box" data-aos="fade-right" data-aos-delay="600">
+              <div class="stat-label">Market Capacity</div>
+              <div class="stat-valu">Global Inventory</div>
+            </div>
+
+            <div class="stat-box" data-aos="fade-right" data-aos-delay="800">
+              <div class="stat-label">Information Depth</div>
+              <div class="stat-valu">Full Specifications</div>
+            </div>
+
+            <div class="stat-box" data-aos="fade-right" data-aos-delay="1000">
+              <div class="stat-label">Live Support</div>
+              <div class="stat-valu" style="color: #801515">
+                24/7 ENCRYPTED
+              </div>
+            </div>
+          </div>
+
+          <div class="gauges-container">
+            <div class="gauge" data-aos="flip-up" data-aos-delay="1200">
+              <span>100%</span>
+              <small>ACCURACY</small>
+            </div>
+            <div class="gauge" data-aos="flip-up" data-aos-delay="1400">
+              <span>50+</span>
+              <small>BRANDS</small>
+            </div>
+            <div class="gauge" data-aos="flip-up" data-aos-delay="1600">
+              <span>LIVE</span>
+              <small>FEED</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+   <!-- brands -->
+ <section id="brands" class="bg-neutral-950 py-16 border-b border-neutral-900">
+  <div class="container mx-auto px-4">
+    <p class="mb-10 text-center text-xs font-bold uppercase tracking-[0.2em] text-gray-500">Trusted by Industry Leaders</p>
+    <div class="flex flex-wrap justify-center gap-8 opacity-60 grayscale transition-all duration-500 hover:opacity-100 hover:grayscale-0 md:gap-16">
+      <div class="flex items-center gap-2 text-2xl font-bold text-white">
+        <img src="assets/images/ferrari.png"  svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-600"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"></path><circle cx="7" cy="17" r="2"></circle><circle cx="17" cy="17" r="2"></circle></svg>
+        FERRARI
+      </div>
+      <div class="flex items-center gap-2 text-2xl font-bold text-white">
+        <img src="assets/images/toyota.png" svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-600"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path></svg>
+        TOYOTA
+      </div>
+      <div class="flex items-center gap-2 text-2xl font-bold text-white">
+        <img src="assets/images/audi.jpg"  svg xmlns="https://i.pinimg.com/1200x/a3/bc/2e/a3bc2e5d47a773bde66ed2bbb60fd081.jpg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-600"><circle cx="12" cy="12" r="10"></circle><path d="m16 12-4-4-4 4"></path><path d="M12 16V8"></path></svg>
+        AUDI
+      </div>
+      <div class="flex items-center gap-2 text-2xl font-bold text-white">
+        <img src="assets/images/bmw.jfif" svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-red-600"><path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"></path></svg>
+        BMW
+      </div>
+    </div>
+  </div>
+</section><section id="features" class="bg-black py-24 text-white">
+  <div class="container mx-auto px-4">
+    <div class="mb-16 text-center">
+      <h2 class="mb-4 text-3xl font-bold md:text-5xl text-white">WHY CHOOSE CARVAN?</h2>
+      <p class="mx-auto max-w-2xl text-gray-400">Discover the cutting-edge technology and design that sets Carvan apart from the rest.</p>
+    </div>
+    <div class="grid gap-8 md:grid-cols-3">
+      <!-- Feature 1 -->
+      <div class="group relative overflow-hidden rounded-2xl bg-neutral-900 border border-neutral-800 hover:border-red-900/50 transition-colors">
+        <div class="aspect-[4/3] w-full overflow-hidden">
+          <img  data-ar="4:3" src="assets/images/bonate.webp" alt="High Performance" width="1200" height="900" class="h-full w-full object-cover transition duration-700 group-hover:scale-110" loading="lazy">
+        </div>
+        <div class="p-8">
+          <div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-red-600/10 text-red-500">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+          </div>
+          <h3 class="mb-3 text-xl font-bold text-white">Unmatched Performance</h3>
+          <p class="text-sm leading-relaxed text-gray-400">0 to 60 in 2.8 seconds. Experience raw power with our twin-turbo V8 engines designed for pure speed.</p>
+        </div>
+      </div>
+      <!-- Feature 2 -->
+      <div class="group relative overflow-hidden rounded-2xl bg-neutral-900 border border-neutral-800 hover:border-red-900/50 transition-colors">
+        <div class="aspect-[4/3] w-full overflow-hidden">
+          <img  data-ar="4:3" src="assets/images/why.webp" alt="Advanced Safety" width="1200" height="900" class="h-full w-full object-cover transition duration-700 group-hover:scale-110" loading="lazy">
+        </div>
+        <div class="p-8">
+          <div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-red-600/10 text-red-500">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <h3 class="mb-3 text-xl font-bold text-white">5-Star Safety</h3>
+          <p class="text-sm leading-relaxed text-gray-400">Advanced collision detection and autonomous braking systems keep you and your family safe on every turn.</p>
+        </div>
+      </div>
+      <!-- Feature 3 -->
+      <div class="group relative overflow-hidden rounded-2xl bg-neutral-900 border border-neutral-800 hover:border-red-900/50 transition-colors">
+        <div class="aspect-[4/3] w-full overflow-hidden">
+          <img  data-ar="4:3" src="assets/images/why1.webp" alt="Smart Technology" width="1200" height="900" class="h-full w-full object-cover transition duration-700 group-hover:scale-110" loading="lazy">
+        </div>
+        <div class="p-8">
+          <div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-red-600/10 text-red-500">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>
+          </div>
+          <h3 class="mb-3 text-xl font-bold text-white">Intelligent Cockpit</h3>
+          <p class="text-sm leading-relaxed text-gray-400">Seamlessly integrated AI assistant and heads-up display for a fully connected and intuitive driving experience.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-20 bg-gray-50">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+      <div class="max-w-2xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Featured Arrivals</h2>
+        <p class="text-gray-600 text-lg">Explore our latest additions. Each vehicle is meticulously inspected and ready for the road.</p>
+      </div>
+      <a href="range.html" class="hidden md:flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors mt-4 md:mt-0">
+        View All Inventory
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+      </a>
+    </div>
+<!-- featured arrival  -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Car 1 -->
+      <div class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100">
+        <div class="relative aspect-[4/3] overflow-hidden">
+          <img  data-ar="4:3" src="assets/images/feature arrival.webp" alt="Luxury Sedan" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+          <div class="absolute top-4 left-4 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">New Arrival</div>
+        </div>
+        <div class="p-6">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-xl font-bold text-gray-900">2024 Phantom Elite</h3>
+            <span class="text-blue-600 font-bold text-lg">$89,500</span>
+          </div>
+          <p class="text-gray-500 text-sm mb-4">Sedan • 2,500 miles • Automatic</p>
+          <div class="border-t border-gray-100 pt-4 flex justify-between items-center">
+            <span class="text-gray-400 text-sm flex items-center gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Los Angeles, CA
+            </span>
+            <button class="text-gray-900 font-medium text-sm hover:text-blue-600 transition-colors">View Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Car 2 -->
+      <div class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100">
+        <div class="relative aspect-[4/3] overflow-hidden">
+          <img  data-ar="4:3" src="assets/images/feature arrival1.webp" alt="Sports Coupe" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+        </div>
+        <div class="p-6">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-xl font-bold text-gray-900">GT Sport V8</h3>
+            <span class="text-blue-600 font-bold text-lg">$112,000</span>
+          </div>
+          <p class="text-gray-500 text-sm mb-4">Coupe • 500 miles • Manual</p>
+          <div class="border-t border-gray-100 pt-4 flex justify-between items-center">
+            <span class="text-gray-400 text-sm flex items-center gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Miami, FL
+            </span>
+            <button class="text-gray-900 font-medium text-sm hover:text-blue-600 transition-colors">View Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Car 3 -->
+      <div class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100">
+        <div class="relative aspect-[4/3] overflow-hidden">
+          <img data-ar="4:3" src="assets/images/feature arrival2.webp" alt="Luxury SUV" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+        </div>
+        <div class="p-6">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-xl font-bold text-gray-900">Alpine SUV X</h3>
+            <span class="text-blue-600 font-bold text-lg">$76,900</span>
+          </div>
+          <p class="text-gray-500 text-sm mb-4">SUV • 12,000 miles • Automatic</p>
+          <div class="border-t border-gray-100 pt-4 flex justify-between items-center">
+            <span class="text-gray-400 text-sm flex items-center gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Denver, CO
+            </span>
+            <button class="text-gray-900 font-medium text-sm hover:text-blue-600 transition-colors">View Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Car 4 -->
+      <div class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100">
+        <div class="relative aspect-[4/3] overflow-hidden">
+          <img  data-ar="4:3" src="assets/images/feature arrival3.webp" alt="Electric Sedan" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+          <div class="absolute top-4 left-4 bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Electric</div>
+        </div>
+        <div class="p-6">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-xl font-bold text-gray-900">Electric Vision</h3>
+            <span class="text-blue-600 font-bold text-lg">$65,000</span>
+          </div>
+          <p class="text-gray-500 text-sm mb-4">EV • 1,200 miles • Automatic</p>
+          <div class="border-t border-gray-100 pt-4 flex justify-between items-center">
+            <span class="text-gray-400 text-sm flex items-center gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Austin, TX
+            </span>
+            <button class="text-gray-900 font-medium text-sm hover:text-blue-600 transition-colors">View Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Car 5 -->
+      <div class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100">
+        <div class="relative aspect-[4/3] overflow-hidden">
+          <img data-ar="4:3" src="assets/images/feature arrival4.webp" alt="Convertible" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+        </div>
+        <div class="p-6">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-xl font-bold text-gray-900">Classic Roadster</h3>
+            <span class="text-blue-600 font-bold text-lg">$55,400</span>
+          </div>
+          <p class="text-gray-500 text-sm mb-4">Convertible • 15,000 miles • Manual</p>
+          <div class="border-t border-gray-100 pt-4 flex justify-between items-center">
+            <span class="text-gray-400 text-sm flex items-center gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              San Diego, CA
+            </span>
+            <button class="text-gray-900 font-medium text-sm hover:text-blue-600 transition-colors">View Details</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Car 6 -->
+      <div class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100">
+        <div class="relative aspect-[4/3] overflow-hidden">
+          <img data-ar="4:3" src="assets/images/feature arrival5.webp" alt="Compact Luxury" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+        </div>
+        <div class="p-6">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-xl font-bold text-gray-900">Urban Executive</h3>
+            <span class="text-blue-600 font-bold text-lg">$42,900</span>
+          </div>
+          <p class="text-gray-500 text-sm mb-4">Hatchback • 8,500 miles • Automatic</p>
+          <div class="border-t border-gray-100 pt-4 flex justify-between items-center">
+            <span class="text-gray-400 text-sm flex items-center gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Seattle, WA
+            </span>
+            <button class="text-gray-900 font-medium text-sm hover:text-blue-600 transition-colors">View Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-12 text-center md:hidden">
+      <a href="#" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+        View All Inventory
+      </a>
+    </div>
+  </div>
+</section>
+<!-- range -->
+<section id="range" class="w-full py-20 bg-neutral-950 text-white overflow-hidden">
+  <div class="container mx-auto px-6 mb-12">
+    <h2 class="text-4xl md:text-6xl font-black uppercase tracking-tighter text-red-600">
+      The Range
+    </h2>
+    <p class="text-neutral-400 mt-2  text-white">Swipe to explore our premium categories.</p>
+  </div>
+
+  <!-- Horizontal Scroll Container -->
+  <div class="w-full overflow-x-auto pb-12 px-6 flex gap-8 snap-x snap-mandatory [&#x26;::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+    
+    <!-- SUV -->
+    <div class="min-w-[85vw] md:min-w-[600px] snap-center flex flex-col gap-6 group">
+      <h3 class="text-3xl font-bold uppercase tracking-wide group-hover:text-red-500 transition-colors  text-white">SUVs</h3>
+      <div class="w-full aspect-video overflow-hidden border border-neutral-800 relative">
+        <img data-ar="16:9" src="assets/images/range.webp" alt="Luxury SUV" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy">
+      </div>
+      <p class="text-neutral-400 text-lg leading-relaxed  text-white">
+        Dominance meets comfort. Our SUVs are engineered for those who demand power without compromising on luxury space.
+      </p>
+      <div>
+        <button class="px-6 py-3 border-b-2 border-red-600 text-white uppercase font-bold tracking-widest hover:text-red-500 transition-colors">
+         <a href="range.html"> Explore SUVs</a>
+        </button>
+      </div>
+    </div>
+
+    <!-- Sports Car -->
+    <div class="min-w-[85vw] md:min-w-[600px] snap-center flex flex-col gap-6 group">
+      <h3 class="text-3xl font-bold uppercase tracking-wide group-hover:text-red-500 transition-colors  text-white">Sports</h3>
+      <div class="w-full aspect-video overflow-hidden border border-neutral-800 relative">
+        <img  data-ar="16:9" src="assets/images/range1.webp" alt="Sports Car" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy">
+      </div>
+      <p class="text-neutral-400 text-lg leading-relaxed  text-white">
+        Pure adrenaline. Aerodynamic perfection designed to push the limits of speed and handling.
+      </p>
+      <div>
+        <button class="px-6 py-3 border-b-2 border-red-600 text-white uppercase font-bold tracking-widest hover:text-red-500 transition-colors">
+           <a href="range.html">Explore Sports</a> 
+        </button>
+      </div>
+    </div>
+
+    <!-- Van -->
+    <div class="min-w-[85vw] md:min-w-[600px] snap-center flex flex-col gap-6 group">
+      <h3 class="text-3xl font-bold uppercase tracking-wide group-hover:text-red-500 transition-colors  text-white">Van</h3>
+      <div class="w-full aspect-video overflow-hidden border border-neutral-800 relative">
+        <img  data-ar="16:9" src="assets/images/range2.webp" alt="Luxury Van" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy">
+      </div>
+      <p class="text-neutral-400 text-lg leading-relaxed  text-white">
+        Space redefined. Executive travel solutions for business or family, wrapped in a sleek dark aesthetic.
+      </p>
+      <div>
+        <button class="px-6 py-3 border-b-2 border-red-600 text-white uppercase font-bold tracking-widest hover:text-red-500 transition-colors">
+           <a href="range.html">Explore Vans</a>
+        </button>
+      </div>
+    </div>
+
+    <!-- Small Car -->
+    <div class="min-w-[85vw] md:min-w-[600px] snap-center flex flex-col gap-6 group">
+      <h3 class="text-3xl font-bold uppercase tracking-wide group-hover:text-red-500 transition-colors  text-white">Small Car</h3>
+      <div class="w-full aspect-video overflow-hidden border border-neutral-800 relative">
+        <img  data-ar="16:9" src="assets/images/range3.webp" alt="Small Car" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy">
+      </div>
+      <p class="text-neutral-400 text-lg leading-relaxed  text-white">
+        Agility in the city. Compact dimensions meet massive personality and efficiency.
+      </p>
+      <div>
+        <button class="px-6 py-3 border-b-2 border-red-600 text-white uppercase font-bold tracking-widest hover:text-red-500 transition-colors">
+           <a href="range.html">Explore Compacts</a>
+        </button>
+      </div>
+    </div>
+
+    <!-- Jeeps -->
+    <div class="min-w-[85vw] md:min-w-[600px] snap-center flex flex-col gap-6 group">
+      <h3 class="text-3xl font-bold uppercase tracking-wide group-hover:text-red-500 transition-colors  text-white">Jeeps</h3>
+      <div class="w-full aspect-video overflow-hidden border border-neutral-800 relative">
+        <img data-ar="16:9" src="assets/images/range4.webp" alt="Off-road Jeep" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy">
+      </div>
+      <p class="text-neutral-400 text-lg leading-relaxed  text-white">
+        Unbound freedom. Built to conquer the toughest terrains with rugged durability and iconic style.
+      </p>
+      <div>
+        <button class="px-6 py-3 border-b-2 border-red-600 text-white uppercase font-bold tracking-widest hover:text-red-500 transition-colors">
+           <a href="range.html">Explore Jeeps</a>
+        </button>
+      </div>
+    </div>
+
+    <!-- Vintage -->
+    <div class="min-w-[85vw] md:min-w-[600px] snap-center flex flex-col gap-6 group">
+      <h3 class="text-3xl font-bold uppercase tracking-wide group-hover:text-red-500 transition-colors  text-white">Vintage</h3>
+      <div class="w-full aspect-video overflow-hidden border border-neutral-800 relative">
+        <img  data-ar="16:9" src="assets/images/range5.webp" alt="Vintage Car" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy">
+      </div>
+      <p class="text-neutral-400 text-lg leading-relaxed  text-white">
+        Timeless elegance. Restored classics that capture the golden era of automotive history.
+      </p>
+      <div>
+        <button class="px-6 py-3 border-b-2 border-red-600 text-white uppercase font-bold tracking-widest hover:text-red-500 transition-colors">
+          <a href="range.html">Explore Vintage</a>
+        </button>
+      </div>
+    </div>
+
+    <!-- Sedan -->
+    <div class="min-w-[85vw] md:min-w-[600px] snap-center flex flex-col gap-6 group">
+      <h3 class="text-3xl font-bold uppercase tracking-wide group-hover:text-red-500 transition-colors  text-white">Sedan</h3>
+      <div class="w-full aspect-video overflow-hidden border border-neutral-800 relative">
+        <img data-ar="16:9" src="assets/images/range6.webp" alt="Luxury Sedan" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" loading="lazy">
+      </div>
+      <p class="text-neutral-400 text-lg leading-relaxed text-white">
+        The standard of excellence. Superior comfort and performance for the discerning driver.
+      </p>
+      <div>
+        <button class="px-6 py-3 border-b-2 border-red-600 text-white uppercase font-bold tracking-widest hover:text-red-500 transition-colors">
+           <a href="range.html">Explore Sedans</a>
+        </button>
+      </div>
+    </div>
+
+  </div>
+<section id="hero" class="relative w-full min-h-[90vh] flex flex-col bg-black text-white overflow-hidden">
+ 
+    
+
+  <!-- Background Image -->
+  <div class="absolute inset-0 z-0">
+    <img  data-ar="16:9" src="assets/images/preowned.webp" alt="Premium Car Background" class="w-full h-full object-cover opacity-70" loading="eager">
+    <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/60"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-transparent to-transparent"></div>
+  </div>
+
+  <!-- Hero Content -->
+  <div class="relative z-10 flex-grow flex items-center px-6 md:px-12">
+    <div class="max-w-3xl">
+      <h1 class="text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter mb-6 leading-[0.9]" >
+        Carvan <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-400">Pre-Owned</span>
+      </h1>
+      <p class="text-lg md:text-2xl text-gray-300 mb-10 font-light tracking-wide max-w-xl border-l-4 border-red-600 pl-6" >
+        Experience the thrill of the new for the price of the used. Certified excellence in every mile.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href="preowned.html" class="btn">
+          Browse Inventory
+        </a>
+        <a href="about.html" class="btn" >
+          Why Choose Us
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll Indicator -->
+  <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce text-white/50">
+    <i data-lucide="chevron-down" class="w-8 h-8"></i>
+  </div>
+</section>
+<section id="categories" class="bg-gray-50 py-20">
+  <div class="container mx-auto px-4">
+    <div class="mb-16 text-center">
+      <h2 class="mb-4 text-4xl font-bold text-gray-900 md:text-5xl">Find Your Dream Ride</h2>
+      <p class="mx-auto max-w-2xl text-lg text-gray-600">
+        From timeless vintage masterpieces to practical city cars, discover our diverse collection categorized for your convenience.
+      </p>
+    </div>
+
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Vintage -->
+      <div class="group relative overflow-hidden rounded-2xl bg-white shadow-md transition-all hover:-translate-y-1 hover:shadow-xl">
+        <div class="aspect-[4/3] overflow-hidden">
+          <img data-ar="4:3" src="assets/images/dream car.webp" alt="Vintage Car" width="600" height="450" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async">
+        </div>
+        <div class="absolute inset-0 flex items-end bg-gradient-to-t from-black/80 via-transparent to-transparent p-6">
+          <div>
+            <h3 class="text-2xl font-bold text-white">Vintage Classics</h3>
+            <p class="text-sm text-gray-300">Timeless elegance &#x26; history</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sports -->
+      <div class="group relative overflow-hidden rounded-2xl bg-white shadow-md transition-all hover:-translate-y-1 hover:shadow-xl">
+        <div class="aspect-[4/3] overflow-hidden">
+          <img data-ar="4:3" src="assets/images/dream car1.webp" alt="Sports Car" width="600" height="450" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async">
+        </div>
+        <div class="absolute inset-0 flex items-end bg-gradient-to-t from-black/80 via-transparent to-transparent p-6">
+          <div>
+            <h3 class="text-2xl font-bold text-white">Sports &#x26; Supercars</h3>
+            <p class="text-sm text-gray-300">Speed, power, and performance</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sedan -->
+      <div class="group relative overflow-hidden rounded-2xl bg-white shadow-md transition-all hover:-translate-y-1 hover:shadow-xl">
+        <div class="aspect-[4/3] overflow-hidden">
+          <img data-ar="4:3" src="assets/images/dream car2.webp" alt="Sedan" width="600" height="450" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async">
+        </div>
+        <div class="absolute inset-0 flex items-end bg-gradient-to-t from-black/80 via-transparent to-transparent p-6">
+          <div>
+            <h3 class="text-2xl font-bold text-white">Luxury Sedans</h3>
+            <p class="text-sm text-gray-300">Comfort meets sophistication</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SUV -->
+      <div class="group relative overflow-hidden rounded-2xl bg-white shadow-md transition-all hover:-translate-y-1 hover:shadow-xl">
+        <div class="aspect-[4/3] overflow-hidden">
+          <img data-ar="4:3" src="assets/images/dream car 3.webp" alt="SUV" width="600" height="450" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async">
+        </div>
+        <div class="absolute inset-0 flex items-end bg-gradient-to-t from-black/80 via-transparent to-transparent p-6">
+          <div>
+            <h3 class="text-2xl font-bold text-white">SUVs &#x26; Off-Road</h3>
+            <p class="text-sm text-gray-300">Adventure without limits</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Van -->
+      <div class="group relative overflow-hidden rounded-2xl bg-white shadow-md transition-all hover:-translate-y-1 hover:shadow-xl">
+        <div class="aspect-[4/3] overflow-hidden">
+          <img  data-ar="4:3" src="assets/images/dream car4.webp" alt="Van" width="600" height="450" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async">
+        </div>
+        <div class="absolute inset-0 flex items-end bg-gradient-to-t from-black/80 via-transparent to-transparent p-6">
+          <div>
+            <h3 class="text-2xl font-bold text-white">Vans &#x26; Campers</h3>
+            <p class="text-sm text-gray-300">Space for the whole family</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Small -->
+      <div class="group relative overflow-hidden rounded-2xl bg-white shadow-md transition-all hover:-translate-y-1 hover:shadow-xl">
+        <div class="aspect-[4/3] overflow-hidden">
+          <img  data-ar="4:3" src="assets/images/dream car5.webp" alt="Small Car" width="600" height="450" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" loading="lazy" decoding="async">
+        </div>
+        <div class="absolute inset-0 flex items-end bg-gradient-to-t from-black/80 via-transparent to-transparent p-6">
+          <div>
+            <h3 class="text-2xl font-bold text-white">Compact &#x26; City</h3>
+            <p class="text-sm text-gray-300">Efficient urban mobility</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+  <div class="container mx-auto px-4">
+    <div class="mb-12 flex flex-col items-center justify-between gap-4 md:flex-row">
+      <div>
+        <h2 class="text-3xl font-bold md:text-4xl text-white white">Visual Excellence</h2>
+        <p class="mt-2 text-gray-400">Experience the details in High Definition.</p>
+      </div>
+      <a href="range.html" class="group flex items-center gap-2 text-sm font-medium text-white hover:text-gray-300">
+        View Full Gallery
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transition-transform group-hover:translate-x-1">
+          <path d="M5 12h14"></path>
+          <path d="m12 5 7 7-7 7"></path>
+        </svg>
+      </a>
+    </div>
+    
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <!-- Gallery Item 1 -->
+      <div class="relative aspect-[4/3] overflow-hidden rounded-xl bg-neutral-900">
+        <img data-ar="4:3" src="assets/images/visual.webp" alt="Sports Car Front View" width="1200" height="900" class="h-full w-full object-cover transition duration-700 hover:scale-110" loading="lazy" decoding="async" fetchpriority="auto">
+      </div>
+      <!-- Gallery Item 2 -->
+      <div class="relative aspect-[4/3] overflow-hidden rounded-xl bg-neutral-900">
+        <img data-ar="4:3" src="assets/images/visual1.webp" alt="Luxury Interior" width="1200" height="900" class="h-full w-full object-cover transition duration-700 hover:scale-110" loading="lazy" decoding="async" fetchpriority="auto">
+      </div>
+      <!-- Gallery Item 3 -->
+      <div class="relative aspect-[4/3] overflow-hidden rounded-xl bg-neutral-900">
+        <img data-ar="4:3" src="assets/images/visual2.webp" alt="Dynamic Driving Shot" width="1200" height="900" class="h-full w-full object-cover transition duration-700 hover:scale-110" loading="lazy" decoding="async" fetchpriority="auto">
+      </div>
+      <!-- Gallery Item 4 -->
+      <div class="relative aspect-[4/3] overflow-hidden rounded-xl bg-neutral-900">
+        <img data-ar="4:3" src="assets/images/visual3.webp" alt="Wheel Detail" width="1200" height="900" class="h-full w-full object-cover transition duration-700 hover:scale-110" loading="lazy" decoding="async" fetchpriority="auto">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="testimonials" class="bg-neutral-50 py-24 text-neutral-900">
+  <div class="container mx-auto px-4">
+    <div class="mb-16 text-center">
+      <h2 class="mb-4 text-3xl font-bold tracking-tight lg:text-4xl">Trusted by Connoisseurs</h2>
+      <p class="mx-auto max-w-2xl text-lg text-neutral-600">
+        Our reputation is built on the satisfaction of our distinguished clientele. Here is what they have to say about their acquisition experience.
+      </p>
+    </div>
+    <div class="grid gap-8 md:grid-cols-3">
+      <!-- Card 1 -->
+      <div class="rounded-2xl bg-white p-8 shadow-sm transition hover:shadow-md">
+        <div class="mb-4 flex text-amber-500">
+          <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+        </div>
+        <blockquote class="mb-6 text-neutral-700">
+          "The level of detail and transparency provided during the purchase of my GT3 was unparalleled. A truly premium experience from start to finish."
+        </blockquote>
+        <div class="flex items-center gap-4">
+          <div class="h-10 w-10 rounded-full bg-neutral-200 flex items-center justify-center font-bold text-neutral-500">JS</div>
+          <div>
+            <div class="font-semibold">James Sterling</div>
+            <div class="text-sm text-neutral-500">Collector</div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="rounded-2xl bg-white p-8 shadow-sm transition hover:shadow-md">
+        <div class="mb-4 flex text-amber-500">
+          <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+        </div>
+        <blockquote class="mb-6 text-neutral-700">
+          "I was looking for a very specific vintage model. The team not only sourced it but ensured it was in showroom condition. Highly recommended."
+        </blockquote>
+        <div class="flex items-center gap-4">
+          <div class="h-10 w-10 rounded-full bg-neutral-200 flex items-center justify-center font-bold text-neutral-500">ER</div>
+          <div>
+            <div class="font-semibold">Elena Rodriguez</div>
+            <div class="text-sm text-neutral-500">Entrepreneur</div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="rounded-2xl bg-white p-8 shadow-sm transition hover:shadow-md">
+        <div class="mb-4 flex text-amber-500">
+          <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+        </div>
+        <blockquote class="mb-6 text-neutral-700">
+          "Exceptional service for international buyers. They handled all the logistics and paperwork seamlessly. The car arrived in perfect condition."
+        </blockquote>
+        <div class="flex items-center gap-4">
+          <div class="h-10 w-10 rounded-full bg-neutral-200 flex items-center justify-center font-bold text-neutral-500">MK</div>
+          <div>
+            <div class="font-semibold">Marcus Kane</div>
+            <div class="text-sm text-neutral-500">Investor</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-black py-24 text-white">
+  <div class="container mx-auto px-4">
+    <div class="mx-auto max-w-3xl text-center">
+      <h2 class="mb-6 text-4xl font-bold tracking-tight md:text-5xl text-white">Ready to Take the Wheel?</h2>
+      <p class="mb-10 text-lg text-gray-400">Book your exclusive test drive today or speak with our specialists to find the perfect vehicle for your lifestyle.</p>
+      <div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
+        <a href="range.html" class="btn">
+          Book Test Drive
+        </a>
+        <a href="contact.html" class="btn">
+          Contact Sales
+        </a>
+      </div>
+    </div>
+  </div>
+</section></main>
+
+ 
+
+ <!-- footer  -->
+    <footer class="carvan-footer">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo/carvan-logo.png" alt="CARVAN" />
+          <p class="footer-desc">
+            Engineering the future of automotive acquisition. The CARVAN is a
+            high-security marketplace for the world's most elite assets.
+          </p>
+        </div>
+        <!-- links -->
+        <div>
+          <div class="footer-head">DIRECTORY</div>
+          <ul class="footer-links">
+            <li><a href="range.html">The Range</a></li>
+            <li><a href="preowned.html">Pre-Owned</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-head">SYSTEM</div>
+          <ul class="footer-links">
+            <li><a href="#">Inquiry Portal</a></li>
+            <li><a href="#">Technical Support</a></li>
+            <li><a href="#">Privacy Protocol</a></li>
+            <li><a href="#">Terms of Asset Transfer</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-head">TRANSMISSION</div>
+          <p class="footer-desc" style="margin-bottom: 20px">
+            Join the frequency for asset availability updates.
+          </p>
+          <div class="newsletter-box">
+            <input type="email" placeholder="ENTER_EMAIL" />
+            <button class="btn-join">SUBMIT</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 CARVAN AUTOMOTIVE SYSTEMS. ALL RIGHTS RESERVED.</div>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </footer>
+     <script src="javascript/aos.js"></script>
+    <script>
+      AOS.init({
+        once: false,
+        mirror: true,
+      });
+    </script>
+    <script src="javascript/script.js"></script>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <script src="js/plugin.js"></script>
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="js/custom.js"></script>
+
+</body></html>

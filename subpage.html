@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- basic -->
+  <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+  
+
+   <!-- fevicon -->
+   <link rel="icon" href="assets/logo/carvan-logo.png"  />
+    <title>Carvan-detail</title>
+    <!-- font  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=JetBrains+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- animation -->
+ <link rel="stylesheet" href="css/aos.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  
+   
+  </head>
+  <body>
+    <!-- navbar -->
+
+ <div class="overlay" id="navOverlay" onclick="closeNav()"></div>
+
+<nav class="carvan-nav">
+  <a href="#" class="nav-logo">
+    <img src="assets/logo/carvan-logo.png" alt="CARVAN" />
+  </a>
+
+  <div class="sidebar-trigger" onclick="openNav()">
+    <i class="fa-solid fa-bars-staggered"></i>
+  </div>
+</nav>
+
+<div class="sidebar-panel" id="sidePanel">
+  <div class="close-sidebar" onclick="closeNav()">
+    <i class="fa-solid fa-xmark"></i>
+  </div>
+
+   <div class="sidebar-links">
+        <div class="bar">NAVIGATION_MENU</div>
+        <ul>
+          <li><a href="index.html" class="side-link">Home</a></li>
+          <li><a href="about.html" class="side-link">About</a></li>
+          <li><a href="range.html" class="side-link">The Range</a></li>
+          <li><a href="preowned.html" class="side-link">Pre-Owned</a></li>
+          <li><a href="brands.html" class="side-link">Brands</a></li>
+          <li><a href="contact.html" class="side-link">Contact</a></li>
+        </ul>
+      </div>
+</div>
+    <!-- detail  -->
+    <section class="product-showcase">
+      <div class="sub-page-container">
+        <nav class="model-nav">
+          <a href="range.html" class="back-btn"
+            ><i class="fas fa-chevron-left"></i> Back to Inventory</a
+          >
+        </nav>
+
+        <div class="showcase-grid" id="car-details-content">
+          <p>Loading vehicle data...</p>
+        </div>
+      </div>
+    </section>
+    <!-- footer  -->
+    <footer class="carvan-footer">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo/carvan-logo.png" alt="CARVAN" />
+          <p class="footer-desc">
+            Engineering the future of automotive acquisition. The CARVAN is a
+            high-security marketplace for the world's most elite assets.
+          </p>
+        </div>
+        <!-- links -->
+        <div>
+          <div class="footer-head">DIRECTORY</div>
+          <ul class="footer-links">
+            <li><a href="range.html">The Range</a></li>
+            <li><a href="preowned.html">Pre-Owned</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-head">SYSTEM</div>
+          <ul class="footer-links">
+            <li><a href="#">Inquiry Portal</a></li>
+            <li><a href="#">Technical Support</a></li>
+            <li><a href="#">Privacy Protocol</a></li>
+            <li><a href="#">Terms of Asset Transfer</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-head">TRANSMISSION</div>
+          <p class="footer-desc" style="margin-bottom: 20px">
+            Join the frequency for asset availability updates.
+          </p>
+          <div class="newsletter-box">
+            <input type="email" placeholder="ENTER_EMAIL" />
+            <button class="btn-join">SUBMIT</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 CARVAN AUTOMOTIVE SYSTEMS. ALL RIGHTS RESERVED.</div>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="javascript/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
+
+    <script src="javascript/subpage.js"></script>
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
