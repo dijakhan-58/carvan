@@ -8,7 +8,7 @@
 
 ##  Preview
 
-![CARVAN ])<img width="1901" height="958" alt="image" src="https://github.com/user-attachments/assets/23147e7a-55d3-4007-bb0f-84829f155bf6" />
+<img width="1901" height="958" alt="image" src="https://github.com/user-attachments/assets/23147e7a-55d3-4007-bb0f-84829f155bf6" />
 
 
 ---
@@ -16,7 +16,7 @@
 ##  Overview
 
 **CARVAN** is a modern automotive marketplace web app showcasing a premium inventory of vehicles across multiple categories. The platform features new arrivals, a pre-owned section, brand partnerships, and a sleek UI designed for an elevated browsing experience.
-
+for images "https://drive.google.com/drive/folders/1kYdzcfvO0uJH8aY9OaWjKVK9QTG6YQPr?usp=sharing"
 ---
 
 ##  Features
